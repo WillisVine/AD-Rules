@@ -61,6 +61,7 @@ DNS拦截规则数量: 216672
 - [EasyPrivacy隐私保护规则](https://easylist-downloads.adblockplus.org/easyprivacy.txt)
 - [乘风视频过滤规则](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt)
 - [去APP下载提示规则](https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt)
+- [AD-J规则](https://raw.githubusercontent.com/jk278/Ad-J/main/Ad-J.txt)
 - [d3ward规则](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock)
 - [oisd规则](https://small.oisd.nl/)
 - [秋风规则](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt)

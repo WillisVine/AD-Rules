@@ -31,6 +31,9 @@ rules=(
   "https://filters.adtidy.org/android/filters/17_optimized.txt"  #adgURL过滤器
   "https://filters.adtidy.org/android/filters/3_optimized.txt" #adg防跟踪
   "https://filters.adtidy.org/android/filters/224_optimized.txt" #adg中文过滤器
+  "https://filters.adtidy.org/android/filters/20_optimized.txt" #adg
+  "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt"
+  "https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/base/%E5%85%B6%E4%BB%96.prop"
   "https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt" #Tv规则
   "https://easylist-downloads.adblockplus.org/easyprivacy.txt" #EasyPrivacy隐私保护规则
   "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载提示规则

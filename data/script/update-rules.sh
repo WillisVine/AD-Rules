@@ -37,6 +37,7 @@ rules=(
   "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock" #d3ward规则
   "https://small.oisd.nl/" #oisd规则
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
+  "https://raw.githubusercontent.com/jk278/Ad-J/main/Ad-J.txt" #ad-j规则
   "https://anti-ad.net/easylist.txt" #Anti-AD规则
   "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt" #adblockfilters规则
   "https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/dns.txt" #GOODBYEADS规则

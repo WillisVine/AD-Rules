@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2025-04-30 08:56:28（北京时间）
+! Version: 2025-04-30 20:21:38（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 8304
+! Total count: 8321
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -23,6 +23,7 @@
 @@-social-bar.$domain=mobi.yahoo.com
 @@.2o7.net/$domain=today.com
 @@.adserver.$domain=litv.tv
+@@.amazon.*/sample/$stealth=referrer
 @@.cn/j/*$script,third-party,domain=weather.com.cn
 @@.cn/k/*$script,third-party,domain=autohome.com.cn|qq.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -536,6 +537,7 @@
 @@||99ybcc.com^$generichide
 @@||9anime.nl/ajax/
 @@||9anime.nl/assets^
+@@||9anime.nl/captcha/
 @@||9anime.vip/ajax/
 @@||9anime.vip/user/
 @@||9cache.com^$stealth,domain=9gag.com
@@ -573,6 +575,7 @@
 @@||ab.blogs.es/abtest.png?editorialRecommendations$domain=applesfera.com
 @@||abchina.com^*ad
 @@||abema-tv.com^$domain=abema.tv,stealth=3p-auth
+@@||abema-tv.com^$stealth=3p-auth
 @@||abema.tv^$stealth=ip
 @@||aboluowang.com^$generichide
 @@||about-australia.com/*/clickheat.js
@@ -606,7 +609,6 @@
 @@||acs-m.daraz.com.bd^
 @@||acs.m.taobao.com^
 @@||acs.m.taobao.com^$important
-@@||action.metaffiliation.com^
 @@||actiris.be/urchin.js
 @@||activity.tuiapple.com^$important
 @@||ad-block.dns.adguard.com^
@@ -875,6 +877,7 @@
 @@||adx.yiche.com/ssp/echo/v1.0/en?*,*,*&cs=
 @@||adz7short.space^$generichide
 @@||aeries.net^*/require/analytics/views/$script,~third-party
+@@||aestheticcanvas.site^$stealth=referrer
 @@||aetv.com^$generichide
 @@||affyun.com^$generichide
 @@||afi-b.com^
@@ -1684,6 +1687,7 @@
 @@||careermap.co.uk/careers/js/google-analytics.js
 @@||carefood.kz/upload/$image
 @@||carexpert.com.tw/wp-content/plugins/like-box-pro/includes/javascript/front_end_js.js
+@@||cargocollective.com/designs/$document
 @@||carrefourpl.snrpage.com^$removeparam=utm_source
 @@||carsales.com.au/afx_prid/$domain=carsales.com.au
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
@@ -1982,6 +1986,7 @@
 @@||cdn.taboola.com/libtrc/tipranks-tipranks/loader.js$domain=tipranks.com
 @@||cdn.taboola.com/libtrc/vhb-handelsblatt/loader.js$domain=handelsblatt.com
 @@||cdn.taboola.com/libtrc^$domain=msn.com
+@@||cdn.taboola.com/magazine/$domain=taboolanews.com
 @@||cdn.taboola.com^$domain=asianetnews.com
 @@||cdn.taboola.com^$domain=msnbc.com
 @@||cdn.taboola.com^$domain=samsung.com|thestartmagazine.com|taboolanews.com
@@ -2060,6 +2065,7 @@
 @@||ced.sascdn.com/tag/*/smart.js$domain=ln24.be
 @@||cedexis.com/zones/*/customers/*/apps/*/decision$domain=play.history.com
 @@||ceesty.com^$generichide
+@@||celestialwallscapes.site^$stealth=referrer
 @@||center-h5api.m.taobao.com^
 @@||centro.co.il^$generichide
 @@||centrum24.pl^$cookie=dtCookie
@@ -2160,6 +2166,7 @@
 @@||clients.plex.tv/api/v2/ads/$~third-party
 @@||clients1.google.com
 @@||climbing.com^$stealth=dpi
+@@||clipartkey.com/adopen/adstyle.css
 @@||clj.valuecommerce.com/*/vcushion.min.js
 @@||clksite.com/static/advertisement.js
 @@||closedjelly.net/embed/$subdocument,stealth=referrer
@@ -2641,6 +2648,7 @@
 @@||dodo.ac/np/images/$image,domain=nookipedia.com
 @@||dogus-ads-cdn.dygdigital.com/daion/daion-videojs-hlsjs-*.min.js
 @@||dogus-ads-cdn.dygdigital.com/live-broadcast-player/v1/bundle.js$domain=startv.com.tr
+@@||donilasplay.com/embed/$stealth=referrer
 @@||dood.watch^$subdocument
 @@||doods.to^$generichide
 @@||doortodoor.co.kr/jsp/cmn/Tracking.jsp^
@@ -2795,6 +2803,7 @@
 @@||elife-cloud.blogspot.com^$generichide
 @@||eloqua.com/include/livevalidation_standalone.compressed.js$domain=pbs.org
 @@||eloqua.com/visitor/v200/svrgp.aspx?$domain=itworld.com|juniper.net
+@@||eloqua.com^$domain=forms.progress.com
 @@||eltern.de/min.php?*/clickTracking.js
 @@||em.hk/wp-content/uploads/*_300_250.
 @@||email.awscloud.com^
@@ -2978,6 +2987,7 @@
 @@||filmweb.pl^$generichide
 @@||filmweb.pl^$stealth
 @@||findlawimg.com^$stealth=referrer,domain=findlaw.cn
+@@||fingahvf.top/advertisers.js
 @@||fingerprintjs.com^$generichide
 @@||firebase.google.com/docs/analytics/$~third-party
 @@||firefaucet.win^$generichide
@@ -3238,6 +3248,7 @@
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
 @@||gnar.grammarly.com/events$xmlhttprequest,domain=account.grammarly.com
 @@||gntm.connect.prosieben.de^$generichide
+@@||go.adjust.com^
 @@||go.admost.com/adx/js/admost.js$domain=arsiv.mackolik.com
 @@||go.affec.tv/cookie^$domain=youronlinechoices.com
 @@||go.com/stat/dolwebanalytics.js
@@ -3311,6 +3322,7 @@
 @@||google-analytics.com/analytics.js$domain=developers.google.com
 @@||google-analytics.com/analytics.js$domain=dirkzwager.nl
 @@||google-analytics.com/analytics.js$domain=displate.com
+@@||google-analytics.com/analytics.js$domain=dragonnest.com
 @@||google-analytics.com/analytics.js$domain=dramahd.me
 @@||google-analytics.com/analytics.js$domain=dtf.ru
 @@||google-analytics.com/analytics.js$domain=earthclassmail.com
@@ -3640,6 +3652,7 @@
 @@||googletagmanager.com/gtag/js$domain=coinhall.org
 @@||googletagmanager.com/gtag/js$domain=dholic.co.jp
 @@||googletagmanager.com/gtag/js$domain=dizzylab.net
+@@||googletagmanager.com/gtag/js$domain=dragonnest.com
 @@||googletagmanager.com/gtag/js$domain=duplichecker.com
 @@||googletagmanager.com/gtag/js$domain=filmomaniak.pl
 @@||googletagmanager.com/gtag/js$domain=go.epageview.com
@@ -5369,6 +5382,7 @@
 @@||media.wazimo.com/favicons/$domain=lastnighton.com
 @@||media.wazimo.com/logos/$domain=lastnighton.com
 @@||media.wired.it/static_wired/js/misc/cn-adv.js
+@@||mediacdn.disqus.com^$document
 @@||mediaite.com/decor/javascript/magnify_stats.js$domain=videos.mediaite.com
 @@||mediamarkt.com.tr^$genericblock
 @@||mediamarkt.de/*/shop^
@@ -5722,7 +5736,6 @@
 @@||ntv.io/serve/load.js$domain=mcclatchydc.com
 @@||nu.nl^$generichide
 @@||nuggad.net^$domain=video.sport1.de
-@@||nuyters.aestheticcanvas.site^$stealth=referrer
 @@||nv7s.com/key=*/referer=$media,stealth=referrer
 @@||nvidia.cn^*-300x250-
 @@||nvidia.com/*/drivers/results/$stealth=referrer
@@ -5998,6 +6011,7 @@
 @@||partner.googleadservices.com/gpt/pubads_$domain=mlb.com
 @@||partner.googleadservices.com/gpt/pubads_$domain=video.foxnews.com|video.foxbusiness.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=cwtv.com
+@@||partner.googleadservices.com/gpt/pubads_impl_$domain=theinquirer.net
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=ukr.net
 @@||partner.market.yandex.ru^$stealth=referrer
 @@||partner1.cashback.zen.com/aff_
@@ -6327,7 +6341,6 @@
 @@||qccommunity.qcloudimg.com^$stealth,domain=cloud.tencent.com
 @@||qcheng.cc/x/statics/js/guanggao.
 @@||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
-@@||qertyus.celestialwallscapes.site^$stealth=referrer
 @@||qhimg.com^*/monitor_analytic.
 @@||qhres.com^*/monitor_analytic.js$domain=mse.360.cn
 @@||qhres2.com^$domain=baike.so.com
@@ -6703,6 +6716,7 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=southwalesargus.co.uk
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=www.vulture.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=m.timesofindia.com
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=10play.com.au
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=20min.ch
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=autocentre.ua
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=beinsports.com
@@ -7235,6 +7249,7 @@
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
 @@||stream.voidboost.$stealth
 @@||stream4free.live^$generichide
+@@||streambox*.xyz/cdn/down/$stealth=referrer,domain=ddizi.im
 @@||streamingcommunity.*/*.js
 @@||streamlive.to^$generichide
 @@||streamwish.com/js/dnsads.js?ads
@@ -7495,6 +7510,7 @@
 @@||tildacdn.com^$stealth,xmlhttprequest
 @@||tiles.mapbox.com^$document
 @@||time.adp.com^$document
+@@||timeprecei.com/ppot/$stealth=referrer
 @@||timesofindia.indiatimes.com/ad-banner-zedo^
 @@||timmy.superpointlesshamsters.com/clicktrue_invocation.js$domain=game.co.uk
 @@||timvision.it/libs/fingerprint/fingerprint.js
@@ -7772,6 +7788,7 @@
 @@||ups.xplosion.de/ctx?event_id=$domain=tz.de
 @@||upstream.to/js/dnsads.js
 @@||uptodate.com^$stealth=dpi
+@@||upvtt.com/uploads^$third-party
 @@||upxin.net/advertisement.js
 @@||upxin.net^$generichide
 @@||urbanmilwaukee.com/wp-content/themes/*/js/prebid-ads.js

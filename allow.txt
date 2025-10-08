@@ -2,7 +2,7 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2025-10-08 08:53:10（北京时间）
+! Version: 2025-10-08 20:24:10（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
 ! Total count: 8569
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
@@ -2065,6 +2065,7 @@
 @@||cdn.tagcommander.com/cmp-api/cmp.js$domain=tf1.fr
 @@||cdn.tagcommander.com^$domain=secure.galerieslafayette.com
 @@||cdn.theguardian.tv/ad/*.m3u8$domain=theguardian.com
+@@||cdn.tiny.cloud/*/tinymce/*.js$stealth=referrer
 @@||cdn.trackjs.com/agent/v*/latest/t.js$domain=adshnk.com|adshrink.it
 @@||cdn.trackjs.com/agent/v*/latest/t.js$domain=delta.com
 @@||cdn.trackjs.com/releases/current/tracker.js$domain=express.com
@@ -2113,6 +2114,7 @@
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads^$domain=in.gr
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls^
+@@||cdnqq.net/ad/api/popunder.js$script
 @@||cdns.*.gigya.com/js/Api.htm?$stealth=referrer,domain=tf1info.fr
 @@||cdnstatic.secure.spiegel.de/SP/*/grafik^
 @@||cdntrf.com/id-ingame.js$domain=ingame.de
@@ -2582,7 +2584,6 @@
 @@||dailymotion.com/nativeads.js$domain=dailymotion.com
 @@||dan-ball.jp/*/img.gif$domain=dan-ball.jp
 @@||daoju.qq.com/time/*/js/ad/
-@@||dapi.kakao.com/v*/maps/sdk.js$stealth=referrer,domain=disco.re
 @@||dapi.kakao.com/v*/maps/sdk.js$stealth=referrer,domain=hyundai.com
 @@||dashboard.jwplayer.com^$document
 @@||dashboard.tinypass.com/xbuilder/experience/$domain=cnbc.com
@@ -3362,7 +3363,6 @@
 @@||go.com/stat/flash/analyticreportingas3.swf
 @@||go.ezodn.com/beardeddragon/basilisk.js$domain=humix.com
 @@||go.ezodn.com/tardisrocinante/$domain=vtuupdates.com
-@@||go.ezodn.com/tardisrocinante/lazy_load.js?$script,domain=raiderramble.com
 @@||go.gov.il^$stealth=dpi
 @@||go.kr^$stealth=dpi
 @@||go.redirectingat.com/*&url=$domain=forums.redflagdeals.com
@@ -4929,7 +4929,6 @@
 @@||int.mwbbiz.com/static/*/app.js$domain=91porny.com
 @@||int.mwbbiz.com/static/*/videoShow.js$domain=91porny.com
 @@||integralyatirim.com.tr^$stealth=dpi
-@@||integration.plarium.com^$stealth=java
 @@||interia.hit.gemius.pl/hitredir/$domain=interia.pl
 @@||interia.hit.gemius.pl/redot.gif?$domain=m.interia.pl
 @@||intersport.peerius.com/tracker/*.page$domain=intersport.de
@@ -5408,7 +5407,6 @@
 @@||manoramamax.com/videojs/videojs-contrib-ads.min.js$domain=manoramamax.com
 @@||manwa*/static/custom/files/300X250.gif
 @@||manwa.me^
-@@||maol.meb.gov.tr^$stealth=dpi
 @@||map.qq.com^$important
 @@||mapandroute.de/MapAPI-$stealth=referrer,domain=dastelefonbuch.de
 @@||mapapi.cloud.huawei.com/mapjs/v*/api/$stealth=referrer,domain=petalmaps.com
@@ -5489,6 +5487,7 @@
 @@||mealty.ru/js/ga_events.js$~third-party
 @@||meanwell.com^$stealth=dpi
 @@||measure.medpex.de/gtm.js
+@@||meb.gov.tr^$stealth=dpi
 @@||mec.ca/media/javascript/resxclsx.js
 @@||media-consumer365.desigual.com^
 @@||media-imdb.com^$stealth=referrer,domain=imdb.com
@@ -5612,7 +5611,6 @@
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party
 @@||minigiants.io/ads.js
 @@||miniminiplus.pl$generichide
-@@||miningblocks.club/pageScripts/adblockDetect.js
 @@||mistore.jp/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||mitsubishiclub.cz^$generichide
 @@||miui.com/unlock/$stealth=referrer
@@ -5711,6 +5709,7 @@
 @@||mssl.fwmrm.net/*/AdManager.js?$domain=nhl.com|dtmts.com
 @@||mssl.fwmrm.net/crossdomain.xml$domain=vplayer.nbcsports.com
 @@||mssl.fwmrm.net/libs/adm/*/LinkTag2.js$domain=play.tv3.lt
+@@||mssl.fwmrm.net/p/release/latest-JS/adm/prd/AdManager.js$domain=funimation.com
 @@||mstm.motorsport.com/mstm.js
 @@||mtcs.nhk-ondemand.jp/b/ss/nhkodmain/$image,domain=nhk-ondemand.jp
 @@||mtouch.facebook.com/ads/api/preview/$domain=business.facebook.com
@@ -6461,6 +6460,7 @@
 @@||public.fbot.me/events/$domain=casper.com
 @@||publicwww.com^$generichide
 @@||publisher-network.com/publisher/evrensel/$domain=evrensel.net
+@@||publisher.adservice.com^$document
 @@||publisher.caroda.io/videoPlayer/$script,domain=online.evropa2.cz
 @@||pubscholar.cn/static/common/fingerprint.js$script,~third-party
 @@||puma.112.2o7.net^
@@ -7526,6 +7526,7 @@
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|entrepreneur.com|foxsports.com
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|foxsports.com
 @@||taboola.com/magazine/$domain=taboolanews.com
+@@||taboolanews.com/feed/summary?publisherId=Taboola_samsung-carnival-us&key=Taboola&viewID=$generichide
 @@||tacirler.com.tr^$stealth=dpi
 @@||tacool.com^$stealth=dpi
 @@||tag.aticdn.net/*/at.js$domain=tv5monde.com
@@ -8024,7 +8025,6 @@
 @@||v.fwmrm.net/ad/*&resp=vast2$app=com.crunchyroll.crunchyroid
 @@||v.fwmrm.net/ad/g/*$domain=nhl.com|dtmts.com
 @@||v.fwmrm.net/ad/g/*Nelonen$script
-@@||v.fwmrm.net/ad/g/1$domain=uktv.co.uk|vevo.com
 @@||v.fwmrm.net/ad/g/1?$domain=play.tv3.lt
 @@||v.fwmrm.net/ad/g/1?$domain=ruutu.fi
 @@||v.fwmrm.net/ad/g/1?*mtv_desktop$xmlhttprequest
@@ -8050,7 +8050,6 @@
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
 @@||vatanbilgisayar.com/upload/banner/
 @@||vattastic.com/js/fp2/fingerprint2.min.js
-@@||vaughnsoft.net/play/$stealth=referrer,domain=vaughn.live
 @@||vcentry2.valuecommerce.ne.jp^
 @@||vcentry3.valuecommerce.ne.jp^
 @@||vdncloud.org/iframe/$stealth=referrer
@@ -8564,6 +8563,7 @@
 @@||zmdownload.zoho.com/zm/imagedisplay$stealth=dpi
 @@||zmovs.com/js/pop.js
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
+@@||zol-img.com.cn^$stealth=referrer,domain=zol.com.cn
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zorroplay.xyz/*.php$stealth=referrer
 @@||zpmobi.cn^*/ad.css?$stylesheet

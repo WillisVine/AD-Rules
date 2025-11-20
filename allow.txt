@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2025-11-19 20:24:28（北京时间）
+! Version: 2025-11-20 08:56:50（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 8745
+! Total count: 8744
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$subdocument,xmlhttprequest,stealth=referrer,domain=pichive.online
@@ -1517,7 +1517,6 @@
 @@||baozhang.baidu.com^
 @@||barax.de/cache/images/logo-*x*-
 @@||barclays.touchclarity.com^$domain=barclaycard.co.uk
-@@||base64.online/ads.txt
 @@||basemapstyles-api.arcgis.com^$stealth=referrer,domain=radar.weather.gov
 @@||bat.bing.com/bat.js$domain=airbnb.ru
 @@||bats.video.yahoo.com$app=com.yahoo.mobile.client.android.mail
@@ -6562,7 +6561,6 @@
 @@||pruefernavi.de/vendor/elasticsearch/elastic-apm-rum.umd.min.js$~third-party
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamucs$removeparam
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -7745,6 +7743,7 @@
 @@||tags.stepstone.com/utag/de/prod/utag.js$domain=stepstone.de
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
+@@||tags.tiqcdn.com/utag/cbsi/webplex-intl/prod/utag.js$domain=southpark.de|southpark.lat|southparkstudios.com.br|southparkstudios.com
 @@||tags.tiqcdn.com/utag/tegna^$domain=kvue.com
 @@||tags.w55c.net/rs?*&t=marketing$image
 @@||taiga.maven.io^

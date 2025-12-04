@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2025-12-04 08:59:30（北京时间）
+! Version: 2025-12-04 20:26:42（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 8763
+! Total count: 8762
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$subdocument,xmlhttprequest,stealth=referrer,domain=pichive.online
@@ -56,7 +56,6 @@
 @@.m4s$domain=crunchyroll.com,stealth=referrer
 @@.mp4$domain=crunchyroll.com,stealth=referrer
 @@.mp4$media,stealth=referrer,domain=api.animeuzayi.com
-@@.mp4$media,stealth=referrer,domain=sekai.one
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@.php$subdocument,stealth=referrer,domain=/dizipal\d+.com/
 @@.php?id=$script,domain=surirt.com
@@ -196,7 +195,7 @@
 @@/hls/*.m3u8$stealth=referrer
 @@/home/ads/*$domain=esunbank.com.tw
 @@/https?:\/\/(www\.)?sonixgvn\.net\/.{1,15}\.js$/$script,~third-party,domain=sonixgvn.net
-@@/image/20*-*-*/*/$domain=1688.com|coolapk.com|galleryepic.com|galleryepic.one|galleryepic.xyz|kuaikanmanhua.com|mvxzsp.com|qnxz.top|taobao.com|tmall.com|tudou.com|youku.com|znds.com
+@@/image/20*-*-*/*/$domain=1688.com|coolapk.com|galleryepic.com|galleryepic.one|galleryepic.xyz|kuaikanmanhua.com|mvxzsp.com|qnxz.top|taobao.com|tmall.com|tudou.com|weme-quan.com|youku.com|znds.com
 @@/image/ad/*$domain=gashpoint.com
 @@/image/share_$domain=pan.baidu.com
 @@/images/*/*.gif$domain=maichun5.info|myhhg.com
@@ -220,6 +219,7 @@
 @@/js/countd.js?rand=$script,stealth=referrer,domain=financemonk.net
 @@/js/fuckadb.js$~third-party,domain=megaurl.in
 @@/js/jquery.smartbanner.js$domain=fiyatseyir.com|greyhound.com|amalgama-lab.com|m.halkbank.com.tr|intime.ua|avic.ua|mirage.ru|speedtest.net|energy.de|hermesworld.com|lekvapteke.ru|yalispor.com.tr|metroturizm.com.tr|anadolu.edu.tr|whatpub.com
+@@/js/jquery.smartbanner.js$domain=fiyatseyir.com|greyhound.com|amalgama-lab.com|m.halkbank.com.tr|intime.ua|avic.ua|mirage.ru|speedtest.net|energy.de|hermesworld.com|lekvapteke.ru|yalispor.com.tr|metroturizm.com.tr|anadolu.edu.tr|whatpub.comir"])
 @@/js/popup.js?advertiser=popup$domain=netflav.com
 @@/js/prebid-$domain=huruwo.top
 @@/js/prebid-ads.js$~third-party,domain=sharetext.me|getpaste.link
@@ -642,6 +642,7 @@
 @@||acornsquare.jp^$stealth=dpi
 @@||acortalink.me/s.php?$stealth=referrer
 @@||acs-m.daraz.com.bd^
+@@||acs-m.daraz.pk^
 @@||acs.m.taobao.com^
 @@||acs.m.taobao.com^$important
 @@||action.metaffiliation.com^
@@ -720,7 +721,6 @@
 @@||adap.tv/redir/javascript/vpaid.js
 @@||adapi.zcool.com.cn/api/adstrategy/realtime/get_ad_info?location_id=$domain=zcool.com.cn
 @@||adashx.ut.dingtalk.com^
-@@||adbeat.com^$domain=adbeat.com
 @@||adblock.adguard.com^
 @@||adblockanalytics.com/ads.js|
 @@||adblockanalytics.com/wp-banners.js|
@@ -850,7 +850,6 @@
 @@||ads.pinterest.com^
 @@||ads.pinterest.com^$popup
 @@||ads.poshtata.online/*.js$domain=seir-sanduk.com
-@@||ads.poshtata.online/adsbygoogle.js$domain=seirsanduk.net
 @@||ads.privacy.qq.com^
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
 @@||ads.pubmatic.com/AdServer/js/pwtSync/$script,subdocument,domain=dnaindia.com|independent.co.uk
@@ -1256,6 +1255,7 @@
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.performfeeds.com^$stealth=referrer
 @@||api.phnx.click/js/article-stat-v2.js$domain=smak.ua
+@@||api.pinger.com$stealth=3p-auth
 @@||api.playstation.com^$stealth=3p-auth
 @@||api.poki.com/ads/houseads/$domain=ninja.io
 @@||api.production.k8s.y3o.tv/*/video-ads/$domain=yallo.tv
@@ -1881,6 +1881,7 @@
 @@||cdn.bcebos.com/passApi/$stealth=referrer
 @@||cdn.bcebos.com^$stealth=referrer,domain=baike.baidu.com
 @@||cdn.bewab.co/embed-$subdocument,stealth=referrer
+@@||cdn.bg/live/$stealth=referrer
 @@||cdn.blueconic.net/akc.js$domain=akc.org
 @@||cdn.blueconic.net/chronicle.js$domain=chronicle.com
 @@||cdn.blueconic.net/pon.js$domain=seat.nl
@@ -1971,7 +1972,6 @@
 @@||cdn.ex.co^$domain=mm-watch.com|theautopian.com
 @@||cdn.exmarketplace.com/bidder/video_scripts/video_updated_*.js$domain=tvserial.it
 @@||cdn.facil-iti.app/tags/faciliti-tag.min.js$script,domain=apec.fr|kyoto.travel
-@@||cdn.fios.tv^$stealth=3p-auth
 @@||cdn.fluidplayer.com/*/current/fluidplayer.min.js
 @@||cdn.games.mobinozer.com/shared/loader/advert.js
 @@||cdn.georiot.com/snippet.js$domain=techadvisor.co.uk
@@ -2870,6 +2870,7 @@
 @@||drive.google.com^$generichide
 @@||drivemoe.com/-ads-banner.js
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
+@@||drop*.dropmefile.com^$stealth=referrer
 @@||dropbox.com/*/oauth$document
 @@||dropbox.com^$generichide
 @@||dropbox.com^$generichide,badfilter
@@ -3001,7 +3002,6 @@
 @@||embed.nana2play.com^$subdocument,stealth=referrer
 @@||embed.new.video^$stealth=referrer|ip
 @@||embed.redditmedia.com/widgets/platform.js$domain=gamerant.com
-@@||embed.sendtonews.com/player*.php$domain=earth.com
 @@||embed.wcostream.com/inc/embed/*.js$domain=embed.wcostream.com
 @@||embed.wcostream.com^$generichide
 @@||embed.wcostream.com^$subdocument,stealth=referrer
@@ -4626,6 +4626,7 @@
 @@||id.flybuys.com.au/*/fingerprint2.min.js
 @@||id.i2i.jp^
 @@||id.sky.de^$domain=wowtv.de,stealth=referrer
+@@||id.skyeng.ru^$stealth=useragent
 @@||id.spectrum.net^$stealth=referrer
 @@||identity.mparticle.com/v*/identify$domain=cwseed.com
 @@||identity.mparticle.com/v*/identify$domain=nbc.com|amcplus.com
@@ -5648,7 +5649,6 @@
 @@||media.wazimo.com/favicons/$domain=lastnighton.com
 @@||media.wazimo.com/logos/$domain=lastnighton.com
 @@||media.wired.it/static_wired/js/misc/cn-adv.js
-@@||mediaalpha.com/js/serve.js$domain=goseek.com
 @@||mediacdn.disqus.com^$document
 @@||mediaite.com/decor/javascript/magnify_stats.js$domain=videos.mediaite.com
 @@||mediamarkt.com.tr^$genericblock
@@ -6137,7 +6137,6 @@
 @@||opex.xplan.iress.com.au/js/xiled/util/pageview.js$~third-party
 @@||oppo.yidianzixun.com^$important
 @@||opt.semasio.net/optsvc^$domain=youronlinechoices.com
-@@||optimatic.com/shell.js$domain=pch.com
 @@||optimize.webtrends.com^$domain=peterboroughtoday.co.uk
 @@||optimizely.com/js/geo2.js$domain=cbs.com
 @@||optimizely.com^$domain=sonos.com
@@ -6574,6 +6573,7 @@
 @@||pruefernavi.de/vendor/elasticsearch/elastic-apm-rum.umd.min.js$~third-party
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamlabo.rheos.jp|note-harumi.sbfoods.co.jp|note.basicinc.jp|note.bcnretail.com|note.calbee.jp|note.com|note.gallery.intage.com|note.kogakuin.ac.jp|note.jp|note.minne.com|note.montblanc.design|note.nhkso.or.jp|note.pokkasapporo-fb.jp|note.roxx.co.jp|note.smartnews-ads.com|note.universal-music.co.jp|note.yamap.com|note.zochang.com|refalover-note.mainichi.jp|shanaiho.itandi.co.jp|uragawa-note.jpn.panasonic.com|webtripper.jp
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||ps.w.org^$image,domain=wordpress.org
@@ -6916,6 +6916,7 @@
 @@||safeway.com/*/?bannerId
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sammyboy.com/members/*advertisement$xmlhttprequest
+@@||sammyboy.com/threads/*advertisement$xmlhttprequest
 @@||sams.11freunde.de/ee/*/interact?$xmlhttprequest,domain=11freunde.de
 @@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
 @@||samsunhaber.com/images/banner/*logo$~third-party
@@ -7215,7 +7216,6 @@
 @@||signaler-pa.googleapis.com/punctual/multi-watch/channel$stealth=3p-auth
 @@||signalshares.com/webtrends.min.js$script,~third-party
 @@||signin.rockstargames.com^$stealth=dpi
-@@||signin.verizon.com^*/affiliate/$subdocument,xmlhttprequest
 @@||sihirlitur.com/otomobil/reklamlar
 @@||simba.taobao.com/?name=mcad$script
 @@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
@@ -8569,7 +8569,6 @@
 @@||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
 @@||www.statcounter.com/images/$image,third-party
 @@||www.statcounter.com^
-@@||www.ticketmaster.$popup,domain=adclick.g.doubleclick.net
 @@||www.ups.com/WebTracking/processInputRequest
 @@||www.youtube-nocookie.com
 @@||www.youtube.com^$generichide

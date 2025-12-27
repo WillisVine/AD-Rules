@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2025-12-26 20:25:11（北京时间）
+! Version: 2025-12-27 08:59:48（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 8788
+! Total count: 8792
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$subdocument,xmlhttprequest,stealth=referrer,domain=pichive.online
@@ -921,6 +921,7 @@
 @@||adverts.ie/css/
 @@||adx.yiche.com/cityindex.ashx
 @@||adx.yiche.com/ssp/echo/v1.0/en?*,*,*&cs=
+@@||aeradot.ismcdn.jp/resources/aeradigital/css/smartphone/ad.css?$domain=dot.asahi.com
 @@||aeries.net^*/require/analytics/views/$script,~third-party
 @@||aestheticcanvas.site^$stealth=referrer
 @@||aetv.com^$generichide
@@ -2669,6 +2670,7 @@
 @@||data.mistat.intl.xiaomi.com^$important
 @@||data.mistat.xiaomi.com^$app=com.tencent.mm
 @@||data.mistat.xiaomi.com^$important
+@@||data.orders.costco.com^
 @@||data.service.paypal.com^
 @@||data.simpleupload.net/download/$stealth=referrer
 @@||datacloudmail.ru^$domain=cloud.mail.ru,stealth=3p-cookie|referrer
@@ -5367,6 +5369,7 @@
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||linetv.tw^$generichide
 @@||linetv.tw^*/ad
+@@||link.meet5.net^
 @@||link.morningbrew.com^
 @@||link.nzz.ch^
 @@||link.sylikes.com^
@@ -5376,6 +5379,7 @@
 @@||linka.page^
 @@||linkbucks.com/tmpl/$image,stylesheet
 @@||linkconnector.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
+@@||linkjust.com^$generichide
 @@||linkneverdie.com^$generichide
 @@||links.e.theatlantic.com^
 @@||links.getblueshift.com^

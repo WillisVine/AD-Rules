@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2025-12-31 20:25:51（北京时间）
+! Version: 2026-01-01 09:08:53（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 8807
+! Total count: 8806
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$subdocument,xmlhttprequest,stealth=referrer,domain=pichive.online
@@ -6340,7 +6340,6 @@
 @@||passport.baidu.com^$stealth=referrer
 @@||passport.bobo.com^
 @@||passport.csdn.net/login^$stealth=referrer
-@@||passport.jlcpcb.com^$removeparam=from
 @@||passport.yandex.ru^$stealth=3p-cookie
 @@||passport.youdao.com^$important
 @@||passwordsleakcheck-pa.googleapis.com$stealth=dpi
@@ -6683,8 +6682,8 @@
 @@||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||qhimg.com^*/monitor_analytic.
 @@||qhres.com^*/monitor_analytic.js$domain=mse.360.cn
+@@||qhres2.com^$domain=360.cn|360.com|n.cn|so.com
 @@||qhres2.com^$domain=baike.so.com
-@@||qhres2.com^$domain=n.cn|so.com
 @@||qianpanso.cn/other/*.js$domain=cilimao.co|cilimao.one
 @@||qiantucdn.com/static/images/adsbygoogle.js
 @@||qiantucdn.com^$stealth=referrer,domain=58pic.com

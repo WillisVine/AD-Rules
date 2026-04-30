@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-04-29 21:24:17（北京时间）
+! Version: 2026-04-30 10:04:33（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9188
+! Total count: 9192
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -228,6 +228,7 @@
 @@/jannah/*js/advertisement.js|$~third-party
 @@/jquery/*$domain=sobooks.cc
 @@/js/*.js?ad*=popup&ads=DisplayAd$~third-party,script,domain=streamwish.to|streamxxx.online|mwish.pro|embedwish.com|awish.pro|wishfast.top|sfastwish.com|vidhidevip.com|rubystm.com
+@@/js/admanager/ads.js$domain=businessnovinite.bg|btv.bg|btvsport.bg|btvplus.bg|btvnovinite.bg
 @@/js/ads.js|$script,~third-party,domain=~internethaber.com|~knaqu.tv|~5ch.io
 @@/js/advert.js$~third-party
 @@/js/adview_*.adsbygoogle.js$~third-party,domain=letv8.cc|zhibo1.cc
@@ -1774,6 +1775,7 @@
 @@||btrace.qq.com^$important
 @@||btsax.info^$generichide
 @@||btt.community/assets/plugins/discourse-fingerprint-
+@@||btv.bg^$generichide
 @@||buffaloshop.de^*/webtrekk.js
 @@||buffalowildwings.com^*/google-analytics.js
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
@@ -7982,6 +7984,7 @@
 @@||stream.voidboost.$stealth=ip
 @@||stream4free.live^$generichide
 @@||streambox*.xyz/cdn/down/$stealth=referrer,domain=ddizi.im
+@@||streamdata.vaplayer.ru^$xmlhttprequest,stealth=referrer,domain=brightpathsignals.com
 @@||streamlive.to^$generichide
 @@||streamtape.com^$popup,domain=streamtape.to
 @@||streamwish.com/js/dnsads.js?ads
@@ -8946,6 +8949,7 @@
 @@||wwads.cn/js/makemoney.js$domain=baomidou.com
 @@||wwads.cn/js/makemoney.js$domain=baomidou.com|nodejs.cn
 @@||wwe.com/sites/all/modules/wwe/wwe_analytics/s_wwe_code.js
+@@||www.btv.bg^$elemhide,badfilter
 @@||www.chemdraw.com.cn^$important
 @@||www.datadoghq-browser-agent.com^
 @@||www.dogpile.com^

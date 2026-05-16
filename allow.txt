@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-05-15 21:44:16（北京时间）
+! Version: 2026-05-16 10:05:21（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9160
+! Total count: 9162
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -5729,6 +5729,7 @@
 @@||m.dcinside.com^$stealth=dpi
 @@||m.ddyueshu.cc/*common
 @@||m.haberturk.com/adscbg/mdet.js
+@@||m.happymh.com^$cookie=/^_ga_/
 @@||m.jd.com^
 @@||m.jiaoyimao.com^$important
 @@||m.manhuabei.com^$important
@@ -7723,6 +7724,7 @@
 @@||ssl.google-analytics.com$app=de.ottomatik.callapizza
 @@||ssl.google-analytics.com/ga.js$domain=gmail.com
 @@||ssl.google-analytics.com/ga_exp.js$domain=hvg.hu
+@@||ssl.kaptcha.com/collect/$domain=app.airtm.com
 @@||ssl.kaptcha.com/collect/$domain=auth.wyze.com
 @@||ssl.kaptcha.com/collect/$domain=balance.vanillagift.com
 @@||ssl.kaptcha.com/collect/$domain=mybalancenow.com

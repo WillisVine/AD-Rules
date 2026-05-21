@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-05-20 22:37:22（北京时间）
+! Version: 2026-05-21 10:30:18（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9131
+! Total count: 9137
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -147,6 +147,7 @@
 @@/advt.png$domain=freevpn4you.net
 @@/adx.$domain=tanx.com
 @@/analytics.php?$domain=xcar.com.cn
+@@/anime$xmlhttprequest,stealth=referrer,domain=vidwish.live|megaplay.buzz
 @@/api/ad/*$domain=pinduoduo.com
 @@/api/ads?$domain=nmkjxy.com
 @@/api/blockdata$domain=sohu.com
@@ -287,6 +288,7 @@
 @@/static/ad/main.$domain=bbmei.top|bbmen.top
 @@/static/chunks/$domain=wenxiaobai.com
 @@/store_ad/*$domain=pcstore.com.tw
+@@/stream$xmlhttprequest,stealth=referrer,domain=kwik.cx
 @@/sxp/i/*.js$domain=linkvertise.com
 @@/template/*/img/*$domain=ymck.pro
 @@/template/conch/asset/js/hlhtml.
@@ -2257,6 +2259,7 @@
 @@||cdnb.4strokemedia.com/carousel/v4/comscore-JS-$script
 @@||cdnb.4strokemedia.com^$domain=video.corriere.it
 @@||cdnb.4strokemedia.com^$domain=video.gazzetta.it
+@@||cdncmk.com^$stealth=referrer,domain=comickfan.com
 @@||cdncontent.wakanim.tv/scripts/dist/ads.js
 @@||cdndm5.com^$stealth=referrer
 @@||cdnformanga.net/wp-*/$stealth=referrer
@@ -6282,6 +6285,7 @@
 @@||oauth.vk.com/authorize?
 @@||obituaries.therecord.com^
 @@||obituaries.thestar.com^
+@@||obituaries.toacorn.com^
 @@||ocdn.eu/ucs/static/*/onesignal.js$script,domain=pulsonline.rs
 @@||odb.outbrain.com/utils/get?url=$script,domain=cnn.com
 @@||odb.outbrain.com^$domain=nypost.com
@@ -6314,6 +6318,7 @@
 @@||olx.ua/*/observed/getads/?json=
 @@||olx.ua/i2/ajax/ad/
 @@||om-apis.sk-pay.co.kr^$stealth=3p-auth,app=com.elevenst
+@@||om-ssl.consorsbank.de^
 @@||omappapi.com/app/campaign-views/*-optin.json$domain=app.monstercampaigns.com
 @@||omappapi.com/users/*/images/$domain=app.monstercampaigns.com
 @@||omhm.qc.ca^$stealth=dpi
@@ -8837,6 +8842,7 @@
 @@||wilderssecurity.com/forums/
 @@||willhaben.apa.net/clientscript/xtcore.js
 @@||windowscentral.com/sites/wpcentral.com/files/advagg_js/$script
+@@||windowsforum.kr/prebid.js
 @@||winwk.com^$generichide
 @@||wipe.de/wa.js$domain=dasoertliche.de
 @@||wipe.de/wa.js$domain=dastelefonbuch.de

@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-07-29 09:46:32（北京时间）
+! Version: 2026-07-29 21:46:47（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9387
+! Total count: 9382
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$image,stealth=referrer,domain=comix.to
@@ -957,7 +957,6 @@
 @@||ads.vk.ru^
 @@||ads.vk.ru^$popup
 @@||ads.x.com^
-@@||ads2.banaraswap.in^$xmlhttprequest,domain=banaraswap.in
 @@||adsafeprotected.com/iasPET.$script,domain=independent.co.uk|reuters.com|wjs.com
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com|wjs.com
 @@||adsales.snidigital.com/*/ads-config.min.js$script
@@ -1083,9 +1082,11 @@
 @@||aliyuncs.com^
 @@||aliyundrive.com^*/share_link/$xmlhttprequest
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
+@@||allarewin.space/assets/ads-*.js
 @@||alllaw.112.2o7.net^
 @@||allmusic.com/images/tracking/tracking_pixel.jpg
 @@||allthatsinteresting.com/wordpress/wp-content/plugins/bwp-minify^
+@@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$domain=almayadeen.net
 @@||alnorum.xyz/hls2/$stealth=referrer
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
 @@||alternate.de/js/emos2.js
@@ -1261,6 +1262,7 @@
 @@||api.ads.tvb.com^
 @@||api.aliagents.ai/api/v1/activity$~third-party,xmlhttprequest
 @@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
+@@||api.animeuzayi.com/api/$stealth=referrer
 @@||api.apolomedia.com/static/libs/event-tracking.min.js$script
 @@||api.app.mobilelocker.eu/api/latest/application-environment/ahoy/events$~third-party
 @@||api.apptentive.com^$app=de.mcdonalds.mcdonaldsinfoapp
@@ -1422,7 +1424,6 @@
 @@||apimeishi.meituan.com/meishi/poi$removeparam=utm_medium,xmlhttprequest,domain=meishi.meituan.com
 @@||apis.google.com
 @@||apis.google.com/js/plusone.js$domain=pornhub.com
-@@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
 @@||apiservices.krxd.net/click_tracker^
 @@||apjr.needrom.com/advert*.js
 @@||apk.tw^*/ads.js$script,~third-party
@@ -2376,7 +2377,6 @@
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=androidaba.com
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=papalah.com
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=sadistic.pl
-@@||cdnjs.cloudflare.com/ajax/libs/fuckadblock^$domain=fotbolltransfers.com
 @@||cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.min.js$domain=ouo.press|ouo.io
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.js$domain=wtk.pl
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
@@ -2764,7 +2764,6 @@
 @@||covid19m.kdca.go.kr^$stealth=dpi
 @@||cowcotland.com/scripjs.php
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
-@@||cp.zirvedesin34.sbs/*.m3u8$stealth=referrer
 @@||cpaalberta.ca^$stealth=dpi
 @@||cpmlink.net^$generichide
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
@@ -3959,7 +3958,6 @@
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=mond.how
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=tv-media.at,important
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=upc.pl
-@@||google-analytics.com/analytics.js$stealth=referrer,domain=tv-media.at
 @@||google-analytics.com/analytics.js^$domain=cosstores.com
 @@||google-analytics.com/analytics.js^$domain=freshmilk.tv
 @@||google-analytics.com/analytics.js^$domain=jackbox.tv
@@ -4975,6 +4973,7 @@
 @@||id.sky.de^$domain=wowtv.de,stealth=referrer
 @@||id.skyeng.ru^$stealth=useragent
 @@||id.spectrum.net^$stealth=referrer
+@@||id.tmtm.ru/login/$stealth=3p-cookie
 @@||identity.mparticle.com/v*/identify$domain=cwseed.com
 @@||identity.mparticle.com/v*/identify$domain=nbc.com|amcplus.com|ifc.com
 @@||identity.mparticle.com/v1/identify$domain=cwtv.com
@@ -5403,7 +5402,6 @@
 @@||instapundit.com^$generichide
 @@||instawp.xyz^$generichide
 @@||instreamvideo.ru/crossdomain.xml|
-@@||instreamvideo.ru/storage/InstreamVideoPlugin
 @@||insurancexblog.blogspot.com/?utm_source=$removeparam=utm_source
 @@||int.mwbbiz.com/static/*/app.js$domain=91porny.com
 @@||int.mwbbiz.com/static/*/videoShow.js$domain=91porny.com
@@ -5569,7 +5567,6 @@
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
 @@||jwpcdn.com/player/plugins/googima/$script,domain=iheart.com|video.vice.com
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$domain=viu.tv
-@@||jyllands-posten.dk/app/*ads*.js
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||k.apiairasia.com^$domain=airasia.com,stealth=referrer
 @@||k12-company.ru^*/statistics.js$script
@@ -6044,7 +6041,6 @@
 @@||media.sosh.fr/includes/wtinit.js
 @@||media.studybreakmedia.com/doubleclick/ads2.js
 @@||media.ticketmaster.*/click_track.js
-@@||media.trafficjunky.net/__js/test.js
 @@||media.videopolis.com/*/api/getById/$stealth
 @@||media.wazimo.com/favicons/$domain=lastnighton.com
 @@||media.wazimo.com/logos/$domain=lastnighton.com
@@ -6405,6 +6401,7 @@
 @@||nitroflare.com/view/$xmlhttprequest
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
 @@||nizista.com/api/v1/adbanner$~third-party
+@@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
 @@||nmac.to/cdn-cgi/pe/bag2?r[]=*google-analytics.com
 @@||nmac.to/cdn-cgi/pe/bag2?r[]=*histats.com
 @@||nnxas.bustago.or.kr^$stealth=dpi
@@ -6910,7 +6907,6 @@
 @@||player.smotrim.ru/js/piwik.js
 @@||player.smotrim.ru/js/piwik.js$~third-party
 @@||player.smotrim.ru^$stealth=ip
-@@||player.starlight.digital^$stealth=referrer
 @@||player.vgtrk.com/js/stat.js?
 @@||player.vimeo.com/video^$stealth=referrer
 @@||player.ynet.co.il/*/flowplayer.ads.*.ynet.js$domain=ynet.co.il
@@ -7467,6 +7463,7 @@
 @@||scorecardresearch.com/internal-c2/plugins/streamingtag_plugin_jwplayer.js$domain=indiatoday.in
 @@||scorecardresearch.com/p?$domain=web.de
 @@||scorecardresearch.com/r$image,domain=billetnet.dk|billettservice.no|lippupalvelu.fi|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
+@@||scorecardresearch.com^$domain=ticketmaster.com.au
 @@||scorecardresearch.com^$third-party,domain=nissan.ru
 @@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
 @@||scrapbox.io^$cookie=connect.sid
@@ -7768,7 +7765,6 @@
 @@||slike.indiatimes.com/feed/stream/*.json$domain=newspointapp.com|indiatimes.com|timesofindia.com|timesnownews.com|zoomtventertainment.com
 @@||slike.indiatimes.com/feed/stream/*.json$domain=timesofindia.indiatimes.com
 @@||slike.indiatimes.com/feed^$domain=tvid.in
-@@||slingcommerce.com/graphql$stealth=3p-auth
 @@||slit.cn/source/plugin/unadblock/*.js
 @@||sltrib.com/pb/resources/scripts/utils/ads/ads.js
 @@||sm.cn^$important
@@ -7968,7 +7964,6 @@
 @@||stackblitz.com^$generichide
 @@||stackblitz.com^$stealth=referrer
 @@||stacksocial.com^$cookie=ajs_anonymous_id
-@@||standard.co.uk/js/third-party/prebid8.$~third-party
 @@||standardmedia.co.ke/assets/js/prebid-google-ads.js
 @@||stapewithadblock.monster^$generichide
 @@||star-telegram.com/mistats/sites/dfw/startelegram.js
@@ -8040,6 +8035,7 @@
 @@||static.cloudflareinsights.com^$domain=quasarzone.com,script
 @@||static.criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||static.criteo.net/js/ld/publishertag.js$domain=xda-developers.com
+@@||static.cz.prg.cmestatic.com/static/shared/app/videojs/plugins/ads/videojs.ads.js$domain=nova.cz
 @@||static.doubleclick.net/instream/ad_status.js$domain=3dzip.org
 @@||static.doubleclick.net/instream/ad_status.js$domain=game3rb.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=investing.com
@@ -8118,6 +8114,7 @@
 @@||stdpay.inicis.com^$stealth=referrer
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
+@@||steelseries.zendesk.com/sc/sdk/$stealth=3p-auth
 @@||stemplay.*^$stealth
 @@||stepik.org/lesson^$stealth=useragent
 @@||stereonet.com^$stealth=dpi
@@ -8153,7 +8150,6 @@
 @@||stream4free.live^$generichide
 @@||streamdata.vaplayer.ru/api.php?$xmlhttprequest,third-party,stealth=referrer
 @@||streamlive.to^$generichide
-@@||streampass.org^$stealth=referrer
 @@||streampeaker.org/DDL/$media,stealth=referrer
 @@||streamtape.*/ad.js
 @@||streamtape.com^$popup,domain=streamtape.to
@@ -8367,7 +8363,6 @@
 @@||telegram.hr^$content
 @@||telegraph.co.uk/template/ver1-0/js/webtrends/live/wtid.js
 @@||telemetry.stytch.com/submit$domain=play.pixels.xyz
-@@||teleportal.ua/vplayer/?hash=$stealth=referrer
 @@||teleportpod.com/assets/EventTracking-$script,~third-party
 @@||telize.com/geoip$document
 @@||tempinbox.xyz/storage/js/adex.js
@@ -8811,6 +8806,7 @@
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_*_web_vod&*&host=https%3A%2F%2Fwww.cbsnews.com&$domain=imasdk.googleapis.com
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com
 @@||v.fwmrm.net/ad/p/1?$domain=cdn.watch.aetnd.com
+@@||v.fwmrm.net/ad/p/1?$domain=channel4.com
 @@||v.fwmrm.net/crossdomain.xml$domain=bold.dk
 @@||v.fwmrm.net/crossdomain.xml$xmlhttprequest
 @@||v.gdt.qq.com^$important
@@ -8835,6 +8831,7 @@
 @@||vatanbilgisayar.com/upload/banner/
 @@||vattastic.com/js/fp2/fingerprint2.min.js
 @@||vaughnsoft.net/play/$stealth=referrer,domain=vaughn.live
+@@||vcdn.xszcdn.com/hls/$domain=xszav1.com
 @@||vcentry2.valuecommerce.ne.jp^
 @@||vcentry3.valuecommerce.ne.jp^
 @@||vdncloud.org/iframe/$stealth=referrer
@@ -8914,7 +8911,6 @@
 @@||vk.com/ads?$popup,domain=vk.com
 @@||vk.com/vkpay$stealth
 @@||vkcdn5.com^$stealth=referrer,image,media
-@@||vkprime.com/embed-*.html$stealth=referrer
 @@||vlm-ads.aimatch.com/vlm/jserver/$domain=titulky.com
 @@||vlscppe.microsoft.com/fp/tags.js$domain=microsoft.com
 @@||vlscppe.microsoft.com/fp/tags.js$stealth=referrer
@@ -9337,7 +9333,6 @@
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
 @@||youtube.com/iframe_api?$stealth=referrer
 @@||youtube.com/live_chat$stealth=referrer
-@@||youtube.com/my_video_ad$document
 @@||youtube.com^$stealth=referrer,third-party
 @@||youtube.googleapis.com/embed^$stealth=referrer
 @@||youtubei.googleapis.com^$important

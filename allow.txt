@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-08-01 20:57:52（北京时间）
+! Version: 2026-08-02 09:53:26（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9377
+! Total count: 9379
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1269,6 +1269,7 @@
 @@||api.app.mobilelocker.eu/api/latest/application-environment/ahoy/events$~third-party
 @@||api.apptentive.com^$app=de.mcdonalds.mcdonaldsinfoapp
 @@||api.asmr-*.com/api/$stealth=3p-auth
+@@||api.auth.adobe.com/api/v2/sparkmedia/$stealth=3p-auth,domain=cnbc.com
 @@||api.babbel.io/gamma/v1/$ping,domain=babbel.com
 @@||api.babbel.io^$stealth=referrer
 @@||api.bbc.com/bbcdotcom/assets/*/script/av/emp/adverts.js
@@ -8762,6 +8763,7 @@
 @@||urbanmilwaukee.com/wp-content/themes/*/js/prebid-ads.js
 @@||urlcheck.hulu.com/crossdomain.xml
 @@||urldefense.com^$removeparam
+@@||usanetwork.com^$extension='AdGuard Assistant'
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||user-profile.pr.sbsod.com^$stealth=3p-auth
 @@||user.edenredplus.com/assets/packages/mixpanel_flutter/assets/mixpanel.js$script,~third-party

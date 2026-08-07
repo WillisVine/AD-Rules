@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-08-07 10:09:04（北京时间）
+! Version: 2026-08-07 20:40:54（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9369
+! Total count: 9367
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -7492,7 +7492,6 @@
 @@||secure.quantserve.com/quant.js$domain=fruitlab.com
 @@||securecard.jp/card_input.html$stealth=referrer
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
-@@||secureimage.securedataimages.com^
 @@||securenetsystems.net/*/scripts/ads/prebid.js
 @@||securenetsystems.net/v5/scripts/
 @@||securepubads.g.doubleclick.net/*/pubads_impl*.js$domain=cinemaxx.de
@@ -7587,7 +7586,6 @@
 @@||securitykiss.com$document
 @@||securitytrails.com/app/api/$domain=securitytrails.com
 @@||securitytrails.com/domain/$domain=securitytrails.com
-@@||sedge.nfl.com^
 @@||seeitworks.com/advertisement.js
 @@||seg-cdn.pumpkin.care/analytics.js/$~third-party
 @@||seg-cdn.pumpkin.care/next-integrations/integrations/mixpanel/$domain=get.pumpkin.care
@@ -8911,6 +8909,7 @@
 @@||vod*.myqcloud.com^$stealth=referrer,domain=cloud.tencent.com
 @@||vod.olympics2010.msn.com/beacon?
 @@||vod.universalsports.com/beacon?
+@@||vodafone.com.au/gtm.js$~third-party
 @@||vodafonelimited.tt.omtrdc.net^
 @@||vodakpsdhdsdrm-vh.akamaihd.net/z/clips/$stealth=3p-cookie
 @@||volces.com/*^upload$stealth=3p-cache
@@ -9128,7 +9127,6 @@
 @@||www.btv.bg^$elemhide,badfilter
 @@||www.chemdraw.com.cn^$important
 @@||www.datadoghq-browser-agent.com^
-@@||www.dogpile.com^
 @@||www.door2windows.com^$stealth=referrer
 @@||www.fbsbx.com^
 @@||www.gdata.pl^$elemhide

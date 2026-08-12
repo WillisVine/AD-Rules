@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-08-11 20:42:09（北京时间）
+! Version: 2026-08-12 09:07:58（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9383
+! Total count: 9386
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -330,6 +330,7 @@
 @@/upload/*/master.m3u8|$media,xmlhttprequest,stealth=referrer,domain=anikuro.ru|anikuro.to
 @@/urchin.js$domain=on.cc
 @@/usr/themes/Mirages/css/
+@@/v/*-*/*p/*.png$stealth=referrer,media,xmlhttprequest
 @@/v/*.gif$stealth=referrer,xmlhttprequest,domain=player.bunny-frame.online
 @@/v/*.html$stealth=referrer,xmlhttprequest,domain=player.bunny-frame.online
 @@/vast.php?idzone=$domain=jptt.tv
@@ -2926,6 +2927,7 @@
 @@||data.notify.macys.com^
 @@||data.orders.costco.ca^
 @@||data.orders.costco.com^
+@@||data.promo.timhortons.ca^
 @@||data.service.paypal.com^
 @@||data.tnlycdn.com^$image,stealth=referrer,domain=toonily.com
 @@||datacloudmail.ru^$domain=cloud.mail.ru,stealth=3p-cookie|referrer
@@ -8737,6 +8739,7 @@
 @@||upaiyun.com/libs/$script,domain=xddxsw.net
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
 @@||update.miui.com^$important
+@@||upfilesgo.com^$generichide
 @@||upgrade.ptmi.gitv.tv^$important
 @@||upload*.jianshu.io^$stealth=referrer
 @@||upload.cc

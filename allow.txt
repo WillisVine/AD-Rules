@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-08-17 08:41:38（北京时间）
+! Version: 2026-08-17 20:23:19（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9383
+! Total count: 9381
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1214,7 +1214,6 @@
 @@||animego.org^$stealth=ip
 @@||animevost.org^$stealth=webrtc
 @@||anisearch.*^$generichide
-@@||anitasrecipes.com/Content/Images/Recipes/$image,~third-party
 @@||anitube*.vip/playerricas.php$stealth=referrer
 @@||aniview.com/api/adserver/spt?$domain=sportbible.com
 @@||anizmstream*.com/cdn/down/$stealth=referrer,domain=anizmplayer.com|anizm.net
@@ -1299,7 +1298,7 @@
 @@||api.championat.com/*/?tag_id=$app=ru.ideast.championat
 @@||api.chartbeat.com^$script,domain=financialpost.com|wcpo.com|couriermail.com.au|betabeat.com
 @@||api.clerk.io/v*/log/$domain=apotera.no
-@@||api.clerk.io/v*/log/$domain=avxperten.at|avxperten.be|avxperten.com|avxperten.cy|avxperten.cz|avxperten.de|avxperten.dk|avxperten.ee|avxperten.es|avxperten.fi|avxperten.fr|avxperten.gr|avxperten.hr|avxperten.hu|avxperten.it|avxperten.lt|avxperten.lu|avxperten.lv|avxperten.nl|avxperten.no|avxperten.pl|avxperten.pt|avxperten.ro|avxperten.se|avxperten.si|avxperten.sk
+@@||api.clerk.io/v*/log/$domain=avxperten.at|avxperten.be|avxperten.com|avxperten.cy|avxperten.cz|avxperten.de|avxperten.dk|avxperten.ee|avxperten.es|avxperten.fi|avxperten.fr|avxperten.gr|avxperten.hr|avxperten.hu|avxperten.it|avxperten.lt|avxperten.lu|avxperten.lv|avxperten.nl|avxperten.no|avxperten.pl|avxperten.pt|avxperten.ro|avxperten.se|avxperten.si|avxperten.sk|brukas.no
 @@||api.clerk.io/v*/log/$domain=industrivarer.no
 @@||api.clerk.io/v*/log/$domain=jaktdepotet.no
 @@||api.clerk.io/v*/log/click?$domain=fjellandhandel.no
@@ -1410,7 +1409,6 @@
 @@||api.slightcommunicativeinterconnectedness.xyz^
 @@||api.smartystreets.com/lookup$stealth=referrer,domain=att.com
 @@||api.spendino.de/admanager^
-@@||api.splice.com/www/advertisement/community-explore$domain=splice.com
 @@||api.spotify.com^$stealth=3p-auth
 @@||api.sprig.com/sdk/$domain=paypal.com
 @@||api.sprig.com/sdk/1/environments/$xmlhttprequest,domain=developer.salesforce.com
@@ -1748,7 +1746,6 @@
 @@||beta.speedtest.net/api/
 @@||beta.speedtest.net/dist/
 @@||betaplayer.site/embed/$stealth=referrer
-@@||betconnect.website/player/$stealth=referrer
 @@||betterads.org/hubfs/$image,~third-party
 @@||bettycrocker.com/Shared/Javascript/UnicaTag.js
 @@||bettycrocker.com/Shared/Javascript/ntpagetag.js
@@ -2084,7 +2081,7 @@
 @@||cdn.broadstreetads.com/init.js$domain=thebatavian.com
 @@||cdn.cervell.io^$domain=cildimveben.com
 @@||cdn.clerk.io/clerk.js$domain=apotera.no
-@@||cdn.clerk.io/clerk.js$domain=avxperten.at|avxperten.be|avxperten.com|avxperten.cy|avxperten.cz|avxperten.de|avxperten.dk|avxperten.ee|avxperten.es|avxperten.fi|avxperten.fr|avxperten.gr|avxperten.hr|avxperten.hu|avxperten.it|avxperten.lt|avxperten.lu|avxperten.lv|avxperten.nl|avxperten.no|avxperten.pl|avxperten.pt|avxperten.ro|avxperten.se|avxperten.si|avxperten.sk
+@@||cdn.clerk.io/clerk.js$domain=avxperten.at|avxperten.be|avxperten.com|avxperten.cy|avxperten.cz|avxperten.de|avxperten.dk|avxperten.ee|avxperten.es|avxperten.fi|avxperten.fr|avxperten.gr|avxperten.hr|avxperten.hu|avxperten.it|avxperten.lt|avxperten.lu|avxperten.lv|avxperten.nl|avxperten.no|avxperten.pl|avxperten.pt|avxperten.ro|avxperten.se|avxperten.si|avxperten.sk|brukas.no
 @@||cdn.clerk.io/clerk.js$domain=batteribyen.dk|batterionline.no|batterionline.se
 @@||cdn.clerk.io/clerk.js$domain=dehardloopwinkel.nl
 @@||cdn.clerk.io/clerk.js$domain=fjellandhandel.no
@@ -2216,6 +2213,7 @@
 @@||cdn.membrana.media/ntp/ym.js$domain=ntvspor.net
 @@||cdn.membrana.media/spx/ym.js$domain=sporx.com
 @@||cdn.membrana.media/video/$domain=sporx.com
+@@||cdn.membrana.media/video/video.css$domain=ntvspor.net
 @@||cdn.membrana.media/video/video.js$domain=ntvspor.net
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.mxpnl.com/libs/mixpanel*.min.js$domain=account.cyberghostvpn.com
@@ -3564,19 +3562,20 @@
 @@||fscinda.com/ad/$~third-party
 @@||ftp.bmp.ovh^
 @@||fu-cdn.com/key=$stealth=referrer
+@@||fuckadblock.sitexw.fr/beta/fuckadblock.js$domain=fuckadblock.sitexw.fr
 @@||fuckadblock.sitexw.fr^$generichide
 @@||fullhdfilm.*/_video_onu_yeni.php$domain=fullhdfilm.*
 @@||fundingchoicesmessages.google.com/f^$domain=adshnk.com
 @@||fundingchoicesmessages.google.com^$script,domain=decrypt.day
 @@||fundingchoicesmessages.google.com^$script,domain=soranews24.com
 @@||fundingchoicesmessages.google.com^$stealth=referrer
+@@||fundingchoicesmessages.google.com^$stealth=referrer,script,domain=player.addradio.de
 @@||funnel.bgfretail.com^$stealth=dpi
 @@||fusacq.com/javascript/advertising.js|$script
 @@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au|friendcafe.jp
 @@||fussball.de/fbed/js/xtcore.js
 @@||future.biz.weibo.com^
 @@||fwmrm.net/ad/g/1?$domain=ncaa.com
-@@||g.adspeed.net/ad.php?do=detectadblocker$domain=btcbunch.com
 @@||g.alicdn.com/??*/criteo
 @@||g.alicdn.com/AWSC/et/$domain=ele.me
 @@||g.alicdn.com/alilog/mlog/aplus_o.js$domain=v.youku.com
@@ -3596,7 +3595,6 @@
 @@||g.doubleclick.net/gampad/ads?env=$xmlhttprequest,domain=wunderground.com
 @@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
 @@||g.doubleclick.net/gampad/adx?*/sparta/*&t=ad_type%3Dtoolbar%26$document,subdocument,domain=wetter.com,badfilter
-@@||g.doubleclick.net/gampad/live/ads?*%2Flemino_instr%$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/live/ads?*tver.$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gpt/pubads_impl_$domain=accuweather.com|blastingnews.com|bloomberg.com|chelseafc.com|chromatographyonline.com|cornwalllive.com|digitaltrends.com|downdetector.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|game.anymanager.io|games.coolgames.com|managedhealthcareexecutive.com|medicaleconomics.com|nationalreview.com|nationalworld.com|nbcsports.com|nycgo.com|physicianspractice.com|scotsman.com|telsu.fi|voici.fr|weather.com
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=koigaku.machicon.jp
@@ -5078,6 +5076,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=flipboard.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=fptplay.vn
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=funimation.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gamejolt.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=games.gamesplaza.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=games.metro.us
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=games.metv.com
@@ -5163,7 +5162,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sondakika.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=spox.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=texastech.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=theticket.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=timesnownews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tranimeci.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvid.in
@@ -5467,7 +5465,6 @@
 @@||jav777.xyz/advertise/
 @@||javedit.com/d/js/acmsd/thea0.
 @@||javpost.net/ads.php
-@@||javtiful.com/ad-engine.js
 @@||jbprogramnotes.com^$generichide
 @@||jccsmart.com^$stealth
 @@||jcrew.com^$stealth=useragent
@@ -6785,7 +6782,6 @@
 @@||pcworldcommunication.d2.sc.omtrdc.net/b/ss/$domain=techhive.com
 @@||pdc.micloud.xiaomi.net^$important
 @@||pdk.theplatform.com/*/pdk/js/plugins/doubleclick.js$domain=cbc.ca
-@@||pdk.video.snidigital.com/*/AdManager.swf$domain=hgtv.com
 @@||pdrnetwork.112.2o7.net/b/ss/pdrnetworkpdrnetprod/
 @@||peacocktv.com^$generichide
 @@||penta.a.one.impact-ad.jp/*combo?$domain=nissan.co.jp
@@ -6814,6 +6810,7 @@
 @@||pic.mairuan.com^$important
 @@||piccool.com/2home/phpAdsNew/
 @@||pichive.online^$subdocument,xmlhttprequest,stealth=referrer|flash
+@@||picholes.online/*/*.jpg$xmlhttprequest,stealth=referrer
 @@||picjs.xyz^$stealth=referrer,domain=vikacg.com
 @@||picmix.com/js/fuckadblock.js
 @@||pics.porn300.com^
@@ -6960,7 +6957,6 @@
 @@||ponominalu.ru/cart$document
 @@||pons.com/p/files/*$image
 @@||pool.v6.bt.n0808.com
-@@||popads.net/favicon-16x16.png$domain=ask4porn.cc|hornyhill.com
 @@||popads.net^$domain=popads.net
 @@||popart.hk/newweb/$generichide
 @@||popeater.com/traffic/?$script,domain=popeater.com
@@ -7598,6 +7594,7 @@
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=tf1info.fr
 @@||securepubads.g.doubleclick.net^$app=com.walla.wallasports
 @@||securepubads.g.doubleclick.net^$app=jp.naver.line.android
+@@||securepubads.g.doubleclick.net^$domain=hoyts.com.au
 @@||secureservercdn.net/*.myftpupload.com/wp-content/themes/jannah/assets/js/advertisement.js$domain=sailuniverse.com
 @@||securetoken.googleapis.com^$stealth=referrer
 @@||securitykiss.com$document
@@ -7694,6 +7691,7 @@
 @@||shopify.com/authentication/$removeparam=analytics_trace_id
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||shoptimise.fr/Content/Images/bann_
+@@||short.goldenfaucet.io/*js/viewad.js
 @@||short.goldenfaucet.io/*templates/css/viewad.css
 @@||shorterall.com^$cookie=_gid
 @@||shortpixel.ai^$domain=linuxiac.com
@@ -8749,6 +8747,7 @@
 @@||upload.xchina.io/*.jpg$image,domain=8se.me|crxs.me|xbookcn.org|xchina-cn.com|xchina.*|xchina.blog|xchina.co|xchina.com|xchina.fit|xchina.fun|xchina.ink|xchina.site|xchina.store|xchina.tv|xchina001.com|xchina001.site|xchina002.com|xchina002.comxchina.fun|xchina002.site|xchina003.com|xchina003.site
 @@||uploadcloud.pro^$generichide
 @@||uploadnow.*/share$removeparam=utm_source
+@@||uploads.forumcommunity.it^$stealth=referrer
 @@||upos-sz-mirrorhw.bilivideo.com^$stealth=referrer
 @@||ups.com/*/WebTracking/track&dcs
 @@||ups.com/*/fragments/tracking-widget.plain.html$~third-party
@@ -8757,7 +8756,6 @@
 @@||ups.ksmobile.net^$app=com.cleanmaster.security
 @@||ups.xplosion.de/ctx$domain=ingame.de
 @@||ups.xplosion.de/ctx?event_id=$domain=tz.de
-@@||upstream.to/embed-*.html$domain=playerhost.net
 @@||upstream.to/js/dnsads.js
 @@||uptodate.com^$stealth=dpi
 @@||upvtt.com/uploads^$third-party
@@ -8795,6 +8793,7 @@
 @@||v.fwmrm.net/ad/g/*$domain=nhl.com|dtmts.com
 @@||v.fwmrm.net/ad/g/*Nelonen$script
 @@||v.fwmrm.net/ad/g/1$domain=tv3sport.dk,important
+@@||v.fwmrm.net/ad/g/1$domain=uktv.co.uk|vevo.com
 @@||v.fwmrm.net/ad/g/1*&csid=cr_web_homepage_backup$domain=static.crunchyroll.com
 @@||v.fwmrm.net/ad/g/1?$domain=funimation.com
 @@||v.fwmrm.net/ad/g/1?$domain=play.tv3.lt
@@ -8913,7 +8912,6 @@
 @@||vlscppe.microsoft.com/fp/tags.js$domain=microsoft.com
 @@||vlscppe.microsoft.com/fp/tags.js$stealth=referrer
 @@||vmeas.cloud/hls/$stealth=referrer
-@@||vms-players.minutemediaservices.com^$script,domain=beargoggleson.com
 @@||vms-players.minutemediaservices.com^$script,domain=si.com
 @@||vms-videos.minutemediaservices.com^$domain=nypost.com
 @@||vms-videos.minutemediaservices.com^$xmlhttprequest,domain=si.com

@@ -2,7 +2,7 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-08-21 20:27:00（北京时间）
+! Version: 2026-08-22 08:41:21（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
 ! Total count: 9376
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
@@ -17,6 +17,7 @@
 @@$subdocument,xmlhttprequest,stealth=referrer|flash,domain=pichive.online
 @@&ad_type=$domain=ultimate-guitar.com
 @@&http_referer=$domain=chaopx.com
+@@&ssid=$third-party,xmlhttprequest,stealth=referrer,domain=ninguno.cc
 @@*$app=com.cinemark.mobile
 @@*$app=com.kakao.talk,stealth=dpi
 @@*$app=viva.republica.toss,stealth=dpi
@@ -5866,7 +5867,6 @@
 @@||lpg-forum.pl/ad-blocker.js
 @@||lpl.qq.com^$important
 @@||lprs*.fr/assets/js/lib/squid/smarttag.js$domain=leparisien.fr
-@@||lptag.liveperson.net^$domain=yesstyle.com
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 @@||lsi.com^*/google-analytics.js
 @@||lso.ca^$stealth=dpi

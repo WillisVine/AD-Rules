@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-08-24 20:28:22（北京时间）
+! Version: 2026-08-25 08:42:27（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9361
+! Total count: 9366
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -3465,6 +3465,7 @@
 @@||fga0.market.xiaomi.com^$important
 @@||fgc0.market.xiaomi.com^$important
 @@||fharr.com^$generichide
+@@||fhlsport*.*.json?_ver=*&_ctump=$third-party,xmlhttprequest,stealth=referrer
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
 @@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
 @@||fifa.com^*/webanalytics.js?
@@ -7099,6 +7100,7 @@
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||px.a8.net^
 @@||q-net.or.kr^$stealth=dpi
+@@||qa.nicovideo.jp^$stealth=dpi
 @@||qa.smbc.co.jp^$stealth=dpi
 @@||qccommunity.qcloudimg.com^$stealth=referrer,domain=cloud.tencent.com
 @@||qcheng.cc/x/statics/js/guanggao.
@@ -8135,6 +8137,7 @@
 @@||stream.voidboost.$stealth=ip
 @@||stream1.store^$stealth=referrer
 @@||stream4free.live^$generichide
+@@||streamas*.*.json?_ver=*&_ctump=$third-party,xmlhttprequest,stealth=referrer
 @@||streamdata.vaplayer.ru/api.php?$xmlhttprequest,third-party,stealth=referrer
 @@||streamlive.to^$generichide
 @@||streampeaker.org/DDL/$media,stealth=referrer
@@ -8369,6 +8372,7 @@
 @@||textfree.us^$generichide
 @@||tgc1.ru^$stealth=dpi
 @@||tgfcer.com/advert.js
+@@||th-rosenheim.de/splan/mobile/js/fingerprint.js$domain=th-rosenheim.de
 @@||th-sjy.com^$generichide
 @@||thaiairways.com/static/common/js/wt_js/webtrends.min.js$~third-party
 @@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
@@ -8661,6 +8665,7 @@
 @@||twincdn.com/videos/$media,stealth=referrer,domain=pornmike.com
 @@||twitch.tv^$generichide
 @@||twitchadvertising.tv/wp-content/uploads/2014/06/header_logo_advertising.png
+@@||twitchcdn.net^$stealth=useragent
 @@||twitter.com$domain=bleacherreport.com
 @@||twitter.com/oct.js$domain=jp.square-enix.com
 @@||twowheeler.policybazaar.com/js/googleanalytics.js

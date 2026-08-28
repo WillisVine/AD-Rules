@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-08-28 16:04:18（北京时间）
+! Version: 2026-08-29 05:35:54（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9366
+! Total count: 9368
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -3355,6 +3355,7 @@
 @@||eu-tools.dmarcmanager.app/widgets/$stealth=referrer
 @@||eu.spgo.io/*~/aaa$~image
 @@||eu4cn.com^$generichide
+@@||euroauto.ru^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'
 @@||euronewsgroup.demdex.net/event?d_event=$~third-party
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
 @@||event-collector.prd.data.s.joyn.de/*/beat
@@ -3742,6 +3743,7 @@
 @@||github.io^$generichide
 @@||github.io^$generichide,badfilter
 @@||githubusercontent.com^$important
+@@||githubusercontent.com^$stealth=referrer,domain=github.com
 @@||gitlab.com/api/v4/projects/$~third-party
 @@||gitlab.com^$generichide
 @@||givingassistant.org/Advertisers/$~third-party

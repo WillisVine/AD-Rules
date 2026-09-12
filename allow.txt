@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-09-11 23:33:17（北京时间）
+! Version: 2026-09-12 10:14:27（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9279
+! Total count: 9282
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$media,stealth=referrer,domain=fakitonye.shop
@@ -36,6 +36,7 @@
 @@.adserver.$domain=litv.tv
 @@.amazon.*/sample/$stealth=referrer
 @@.b-cdn.net/*.m3u8?$xmlhttprequest,stealth=referrer
+@@.cfd/hls/*.jpg$stealth=referrer
 @@.cn/j/*$script,third-party,domain=weather.com.cn
 @@.cn/k/*$script,third-party,domain=autohome.com.cn|qq.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -399,6 +400,8 @@
 @@://img.souche.com/*.jpg
 @@://localhost/$generichide
 @@://localhost:$generichide
+@@://m1.*.*/v/*/*.css$xmlhttprequest,stealth=referrer
+@@://m1.*.*/v/*/*/*-*.$xmlhttprequest,stealth=referrer
 @@://up.taoseye.com/contents/other/player/playerlogo.png
 @@://www.exoclick.com/ads.js|
 @@://www.fedex.com/Tracking?

@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-09-16 10:28:14（北京时间）
+! Version: 2026-09-16 23:48:03（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9257
+! Total count: 9251
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$media,stealth=referrer,domain=fakitonye.shop
@@ -291,7 +291,6 @@
 @@/prebid-js-$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@/prebid.$script,domain=mingpao.com
 @@/prebid.min.js$~third-party,domain=tpead.net|advertape.net|tapepops.com|watchadsontape.com|advertisertape.com|tapeadvertisement.com|adblockplustape.xyz|tapelovesads.org|gettapeads.com|tapeadsenjoyer.com|noblocktape.com|antiadtape.com|tapewithadblock.org|streamadblocker.*|strtape.cloud|adblockeronstape.me|streamadblockplus.com|shavetape.*|adblockstrtape.link|adblockstrtech.link|adblockstreamtape.*|stape.fun|strcloud.link|streamtape.*|streamtape.com
-@@/premium*/*.php$subdocument,stealth=referrer,domain=stronstream.shop|sportzlive.shop|dlhd.*
 @@/premiumtv/*.php?id=$subdocument,third-party,stealth=referrer
 @@/progress.php?callback=$script,domain=ytmp3.cc
 @@/proxy?data=$third-party,xmlhttprequest,stealth=referrer,domain=flixer.*
@@ -345,6 +344,7 @@
 @@/video.m3u8$stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*|missav01.com
 @@/video/*$media,stealth=referrer,domain=douyin.com
 @@/video/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.to
+@@/video/*.html|$xmlhttprequest,stealth=referrer,domain=cinesrc.st
 @@/video/*/index.m3u8?*&frame_commit=*&mw_pid=*&signature=$stealth=useragent
 @@/video/m3u8
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net
@@ -1052,6 +1052,7 @@
 @@||akamaihd.net/worldwide_analytics/tagcommander/Ubisoft$domain=account.ubisoft.com|connect.ubisoft.com|store.ubi.com
 @@||akamaized.net/*.m4s$stealth=referrer,domain=bilibili.com
 @@||akamaized.net/*.m4s$xmlhttprequest,stealth=referrer,domain=bilibili.tv
+@@||akamaized.net/*.mp4$stealth=referrer,domain=bilibili.com
 @@||akamaized.net/exp=$stealth=referrer,xmlhttprequest,domain=vidio.com
 @@||akamaized.net^$important
 @@||akashio.com^$generichide
@@ -1416,6 +1417,7 @@
 @@||api.video.xiaomi.com^$important
 @@||api.viduki.net/embed_providers?$stealth=referrer
 @@||api.vk.com/method/statEvents.$~third-party
+@@||api.wehype.com/creator-community/graphql$stealth=3p-auth
 @@||api.youla.io^$stealth=referrer
 @@||api.zeeg.me/api/analytics/events/$~third-party
 @@||api.zhihu.com^$important
@@ -1795,7 +1797,6 @@
 @@||bmap6.cn^$important
 @@||bnc.lt/a/key_live$domain=pinterest.co.kr|pinterest.com|pinterest.de|pinterest.com.au|pinterest.com.mx|pinterest.es|pinterest.jp|pinterest.it|pinterest.ca|pinterest.co.uk|pinterest.ru|pinterest.ch|pinterest.fr|pinterest.cl|pinterest.at|pinterest.pt|pinterest.nz|pinterest.dk|pinterest.se|pinterest.ie|pinterest.ph|pinterest.info
 @@||board-game.co.uk/cdn-cgi/zaraz/s.js$script,~third-party
-@@||board4all.biz^$stealth=referrer|location
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
 @@||bokecc.com/flash/playlog?
 @@||bolha.com/clicktracker/
@@ -2399,7 +2400,6 @@
 @@||cdpn.io^$generichide
 @@||cdpn.io^$stealth=referrer,domain=codepen.io
 @@||cdpn.io^$subdocument,stealth=referrer
-@@||cds.w6x3h2w2.hwcdn.net/ads/advertisement.js
 @@||ced-ns.sascdn.com/diff/video/current/libs/js/controller.js$domain=ln24.be
 @@||ced.sascdn.com/tag/*/smart.js$domain=ln24.be
 @@||cedexis.com/zones/*/customers/*/apps/*/decision$domain=play.history.com
@@ -2904,6 +2904,7 @@
 @@||data.orders.costco.com^
 @@||data.promo.timhortons.ca^
 @@||data.service.paypal.com^
+@@||data.tm-awx.com$domain=gloucestershirelive.co.uk
 @@||data.tnlycdn.com^$image,stealth=referrer,domain=toonily.com
 @@||datacloudmail.ru^$domain=cloud.mail.ru,stealth=3p-cookie|referrer
 @@||datacomp.sk^$stealth=dpi
@@ -3421,12 +3422,14 @@
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=ok.co.uk
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=themirror.com
+@@||feliz-web.data.tm-awx.com^$domain=cheshire-live.co.uk
 @@||feliz-web.data.tm-awx.com^$domain=football.london
 @@||feliz.data.tm-awx.com/smile-web-v*/$domain=ok.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=examinerlive.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=mirror.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=themirror.com
+@@||feliz.data.tm-awx.com^$domain=cheshire-live.co.uk
 @@||feliz.data.tm-awx.com^$domain=football.london
 @@||fengkongcloud.com/fpv2.js
 @@||festyy.com^$generichide
@@ -3539,7 +3542,6 @@
 @@||fundingchoicesmessages.google.com^$script,domain=decrypt.day
 @@||fundingchoicesmessages.google.com^$script,domain=soranews24.com
 @@||fundingchoicesmessages.google.com^$stealth=referrer
-@@||fundingchoicesmessages.google.com^$stealth=referrer,script,domain=player.addradio.de
 @@||funnel.bgfretail.com^$stealth=dpi
 @@||fusacq.com/javascript/advertising.js|$script
 @@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au|friendcafe.jp
@@ -3565,7 +3567,6 @@
 @@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
 @@||g.doubleclick.net/gampad/adx?*/sparta/*&t=ad_type%3Dtoolbar%26$document,subdocument,domain=wetter.com,badfilter
 @@||g.doubleclick.net/gampad/live/ads?*tver.$xmlhttprequest,domain=imasdk.googleapis.com
-@@||g.doubleclick.net/gpt/pubads_impl_$domain=accuweather.com|blastingnews.com|bloomberg.com|chelseafc.com|chromatographyonline.com|cornwalllive.com|digitaltrends.com|downdetector.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|game.anymanager.io|games.coolgames.com|managedhealthcareexecutive.com|medicaleconomics.com|nationalreview.com|nationalworld.com|nbcsports.com|nycgo.com|physicianspractice.com|scotsman.com|telsu.fi|voici.fr|weather.com
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=koigaku.machicon.jp
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=ukr.net
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=sudokugame.org
@@ -3605,7 +3606,6 @@
 @@||games.gamesplaza.com^$generichide
 @@||games.iwin.com^$generichide
 @@||games.pch.com^$generichide
-@@||gamesglue.com/game_core/check^
 @@||gamesmain.xyz^$generichide
 @@||gamespot.com/js/compiled/trackingWithCT.js$domain=gamespot.com
 @@||gamezop.com/prebid.js$script,~third-party
@@ -3663,7 +3663,6 @@
 @@||get.x-link.pl^$generichide
 @@||getbootstrap.com/docs/*/assets/js/vendor/popper.min.js
 @@||getclicky.com/ajax/marketshare?$script
-@@||getcopy.link/js/prebid-ads.js
 @@||getflywheel.com/addons/google-analytics/$~third-party
 @@||getgoods.de^*/emstrack.js
 @@||getintopc.com/*.js$domain=getintopc.com
@@ -7561,6 +7560,7 @@
 @@||seyy66.space^$generichide
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
 @@||sf*-*cdn-tos.pstatp.com^$domain=juejin.cn
+@@||sf.ezoiccdn.com/ezossp/https/kosmofoto.com/wp-content/$script,domain=kosmofoto.com
 @@||sfdict.com/app/*/click_tracking.js$domain=thesaurus.com
 @@||sfsapi.micloud.xiaomi.net^$important
 @@||sgqcvfjvr.onet.pl^
@@ -7758,7 +7758,6 @@
 @@||spclient.wg.spotify.com^$important
 @@||speed.cloudflare.com/__log$~third-party
 @@||speedcurve.com/js/lux.js$script,domain=tv8.it
-@@||speedtest.net/api/api.php
 @@||speedtest.net/api/js/user-settings|$xmlhttprequest
 @@||speedtest.net/javascript/ads.js
 @@||speedtestcustom.com^$subdocument,stealth=referrer
@@ -7992,7 +7991,6 @@
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
 @@||stereonet.com^$stealth=dpi
 @@||stereophile.com^$elemhide
-@@||stfly.me^$stealth=referrer
 @@||stippleit.com/stipple.js$domain=photos.toofab.com
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||sto*.igstatic.com/js/seo-ads.js$domain=igraal.com
@@ -8399,7 +8397,6 @@
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|geo.fr|voici.fr
 @@||traceparts.com/lib/piano-analytics/piano-analytics.js$script,~third-party
 @@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
-@@||track.adform.net/serving/scripts/trackpoint/async/$domain=ethias.be
 @@||track.adtraction.com/t/t?a*epi=*url=
 @@||track.ksta.de/cre-*/tracking/call.js
 @@||track.mybloglog.com/js/jsserv.php?$domain=egotastic.com
@@ -8610,7 +8607,6 @@
 @@||upload.xchina.io/*.jpg$image,domain=8se.me|crxs.me|xbookcn.org|xchina-cn.com|xchina.*|xchina.blog|xchina.co|xchina.com|xchina.fit|xchina.fun|xchina.ink|xchina.site|xchina.store|xchina.tv|xchina001.com|xchina001.site|xchina002.com|xchina002.comxchina.fun|xchina002.site|xchina003.com|xchina003.site
 @@||uploadcloud.pro^$generichide
 @@||uploadnow.*/share$removeparam=utm_source
-@@||uploads.forumcommunity.it^$stealth=referrer
 @@||upos-sz-mirrorhw.bilivideo.com^$stealth=referrer
 @@||ups.com/*/WebTracking/track&dcs
 @@||ups.com/*/fragments/tracking-widget.plain.html$~third-party
@@ -8771,7 +8767,6 @@
 @@||vlm-ads.aimatch.com/vlm/jserver/$domain=titulky.com
 @@||vlscppe.microsoft.com/fp/tags.js$domain=microsoft.com
 @@||vlscppe.microsoft.com/fp/tags.js$stealth=referrer
-@@||vmeas.cloud/hls/$stealth=referrer
 @@||vms-players.minutemediaservices.com^$script,domain=si.com
 @@||vms-videos.minutemediaservices.com^$domain=nypost.com
 @@||vms-videos.minutemediaservices.com^$xmlhttprequest,domain=fortune.com
@@ -8827,7 +8822,6 @@
 @@||was.vodafone.de/ee/*/privacy/set-consent
 @@||watch.globaltv.com^$generichide
 @@||watchdirty.to/player/stats.php
-@@||wavse.com^$generichide
 @@||wazimo.com/engine/common/widgets/content/$domain=lastnighton.com
 @@||wazimo.com/engine/common/widgets/content/$domain=showsnob.com
 @@||wbapp.mobile.sina.cn^$important

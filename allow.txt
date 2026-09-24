@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-09-24 10:20:00（北京时间）
+! Version: 2026-09-25 00:10:01（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9232
+! Total count: 9233
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$media,stealth=referrer,domain=fakitonye.shop
@@ -81,7 +81,6 @@
 @@.php?play_vid=$subdocument,stealth=referrer,domain=xyflv.cc
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|digit77.com|e9china.net|upxin.net
 @@.png|$third-party,xmlhttprequest,stealth=referrer,domain=embdmstrplayer.com
-@@.ru.com/*/tracks-$xmlhttprequest,stealth=referrer
 @@.ru/mylivetv/stream-*.php$stealth=referrer
 @@.ru/premiumtv/*.php$subdocument,xmlhttprequest,stealth=referrer
 @@.shop/uploads/$stealth=referrer
@@ -272,6 +271,7 @@
 @@/kcarting-tally?&random=$domain=coveryourtracks.eff.org
 @@/key=*/referer=none*.mp4$media,xmlhttprequest,stealth=referrer
 @@/log/report/*$script,domain=bilibili.com
+@@/m3u8-proxy.m3u8?data=$xmlhttprequest,stealth=referrer,domain=zlive.st
 @@/matomo.js$domain=github.com|trcet77.com
 @@/media/*$stealth=referrer,media,domain=fsharetv.cc
 @@/media/*/zpr_footer/js/pageear.js$domain=eska.pl|eskarock.pl|voxfm.pl|vibefm.pl|radiosupernova.pl|se.pl
@@ -679,6 +679,7 @@
 @@||a.run.app/api/stat?$domain=cocowa.app
 @@||a.sellpoint.net^
 @@||a.usafacts.org/api/v4/Metrics$~third-party
+@@||a.vdo.ai/core/v-m-timesofindia-v3/vdo.ai.js$domain=timesofindia.indiatimes.com
 @@||a.visualrevenue.com/vrs.js$domain=nydailynews.com
 @@||a.visualrevenue.com/vrs.js$domain=t-online.de
 @@||a0.app.xiaomi.com
@@ -1805,6 +1806,7 @@
 @@||booklive.jp/vcentry/landing?$removeparam=vc_lpp
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bookoffonline.co.jp/files/tracking/ac/clicktag.js$~third-party
+@@||bookshop.org/astro-assets/google-analytics.*.js$domain=bookshop.org
 @@||bookwalker.com.tw/images/p_img/pc_ad*.png$~third-party
 @@||boot.dev^$generichide
 @@||bootcss.com^$script,domain=kan-tv.com
@@ -1869,6 +1871,7 @@
 @@||byteimg.com/obj/tos-cn
 @@||c-ctrip.com/images/*.jpg
 @@||c-web.cedyna.co.jp/customer/img/spacer.gif?$~third-party
+@@||c.2ace.ru*/VOD/$stealth=referrer
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=atozmath.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=epochtimes.de
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=fitforfun.de
@@ -2521,7 +2524,6 @@
 @@||cloud.roistat.com/dist/module.js$domain=pandashop.md
 @@||cloud.typography.com/*/css/fonts.css$stealth=referrer
 @@||clouderrorreporting.googleapis.com^$domain=waze.com
-@@||cloudfam.io/*/pixel.gif
 @@||cloudfam.io^$generichide
 @@||cloudflare.com/*/fingerprint2.min.js$domain=saavn.com
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
@@ -5057,7 +5059,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=m.timesofindia.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mako.co.il
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=manoramamax.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mariogames.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=matchtv.ru|sportbox.ru
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=medyaradar.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mein-schoener-garten.de
@@ -5117,7 +5118,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.ufreegames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=videonuz.ensonhaber.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vidyome.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vivo.sx
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vizita.si
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=voicetv.co.th
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vvvvid.it
@@ -6399,6 +6399,7 @@
 @@||odb.outbrain.com^$domain=nypost.com
 @@||odcdn.com^*/cm.js
 @@||ofeminin.pl/*&srcc=ucs$removeparam=utm_source
+@@||ofeminin.pl/*srcc=$stealth=referrer
 @@||offgamers.com/checkout/buyNow/$document,xmlhttprequest
 @@||officeapps.live.com/*.aspx$stealth
 @@||officeapps.live.com^$domain=cloud.microsoft
@@ -7234,7 +7235,6 @@
 @@||s-nbcnews.com/*/FreeWheelAdManagerLoader.swf$domain=today.com
 @@||s-pt.ppstatic.pl/o/js/pp-ads/ads.js
 @@||s.206ads.com/core.js$domain=androidauthority.com
-@@||s.206ads.com/helper.js$domain=androidauthority.com
 @@||s.adadapter.netzathleten-media.de/*/naMediaAd.js$domain=wooco.de
 @@||s.bluecore.com^
 @@||s.bstarstatic.com/ogv/subtitle/$stealth=referrer
@@ -7974,6 +7974,7 @@
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||sto*.igstatic.com/js/seo-ads.js$domain=igraal.com
 @@||sto520.com^$generichide
+@@||storage*.porngameshub.com/*/index.html$stealth=referrer
 @@||storage.embluemail.com/pixeltracking^$domain=lavoz.com.ar
 @@||storage.googleapis.com/adtags/kicker/QMAX_kicker.de.js$domain=kicker.de
 @@||storage.googleapis.com/aisw-assets/fanpage/adblock/advert*_.json$domain=staige.tv
@@ -8776,6 +8777,7 @@
 @@||w88.go.com/id?$domain=espn.com
 @@||w88.go.com^$domain=abc.go.com
 @@||waaw.to/adv/ads/popunder.js$script
+@@||walftech.com^$generichide
 @@||walla.co.il^$csp
 @@||wallpaper.cdn.pandora.xiaomi.com^$important
 @@||wallpapers.ispazio.net/advert^
@@ -9088,7 +9090,6 @@
 @@||xinhuanet.com/gsstatics/*/images/ad/
 @@||xiuren.org^$generichide
 @@||xmalay1.net/nativeads-v2.js$script,domain=xmalay1.net
-@@||xn--kcksk7a2bl5le7b6doc1h3f.com/video/$stealth=referrer
 @@||xn--ngstr-lra8j.com^$important
 @@||xnimg.cn/n/apps/profile/modules/tuiguang/
 @@||xnimg.cn^*/nx/ugc/share/js/hotlist.js

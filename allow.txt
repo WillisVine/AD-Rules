@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-09-29 11:23:09（北京时间）
+! Version: 2026-09-30 01:18:25（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9231
+! Total count: 9241
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$media,stealth=referrer,domain=fakitonye.shop
@@ -475,7 +475,7 @@
 @@p2p.$domain=tecms.net
 @@play$domain=gimy.com.tv|gimy.com.tw|gimy.tv
 @@playlist/*/load-playlist$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|1stream.eu|streameast.app|thecrackstreams.live|buffstreams.app|gooz.aapmains.net
-@@q=$xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidup.to|vidfast.vc|vidking.net
+@@q=$xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidup.to|vidfast.vc|vidking.net|movy.sx
 @@qlogo.cn^
 @@rr*--*.googlevideo.com$domain=youtube.com
 @@s.click.taobao.com
@@ -542,7 +542,9 @@
 @@||126.net/images/blank.gif
 @@||126.net^$important
 @@||127.0.0.1/admin/admin_ad.php?$domain=127.0.0.1
+@@||131400.best/external$generichide
 @@||1337x.st/css/webfonts/oswald-*.$font
+@@||141312.best/external$generichide
 @@||150075.com^$domain=tecms.net
 @@||159i.com/a_d/$media
 @@||163.com/user/event?id=
@@ -3438,6 +3440,7 @@
 @@||filemoon.sx/e/$stealth=referrer
 @@||fileone.tv/file/$domain=fileone.tv
 @@||files.1drv.com^
+@@||files.an1.net^$stealth=referrer,domain=an1.com
 @@||files.fm/js/analytics_events.js$~third-party
 @@||files.mycloud.com/js/analytics/google_analytics.js$domain=files.mycloud.com
 @@||files.slack.com^$image,~third-party
@@ -8717,6 +8720,13 @@
 @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
 @@||vidtube.pro/embed$subdocument,stealth=referrer
 @@||view.inews.qq.com^$important
+@@||vikacg.*/external$generichide
+@@||vikacg.cc/external$generichide
+@@||vikacg.com/external$generichide
+@@||vikacg.eueu.lol/external$generichide
+@@||vikacg.icu/external$generichide
+@@||vikacg.moe.mov/external$generichide
+@@||vikacg.xyz/external$generichide
 @@||vip.sp-flv.com^*/?url=age_$subdocument,stealth=referrer
 @@||vipi.tv/ads.js
 @@||vipstatic.com/img/share/blank.png

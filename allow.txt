@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-10-02 11:14:01（北京时间）
+! Version: 2026-10-03 01:04:16（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9274
+! Total count: 9278
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$media,stealth=referrer,domain=fakitonye.shop
@@ -2627,6 +2627,7 @@
 @@||coinadster.com^$generichide
 @@||coinadster.com^$script,stylesheet,xmlhttprequest,other,image,domain=coinadster.com
 @@||coinmarketcap.com/static/addetect/$script,~third-party
+@@||coinpayz.xyz/*.js?probe=$script,~third-party
 @@||cokcok.stream/play/$stealth=referrer
 @@||colamanga.com/js/*/load.js
 @@||colamanga.com^$generichide
@@ -6434,6 +6435,7 @@
 @@||ok.ru/videoembed$stealth=referrer
 @@||ok.ru/web-api/music/conf$stealth=referrer
 @@||oklivetv.com/*=*&$script,other,xmlhttprequest
+@@||oklivetv.com^$generichide
 @@||oktatas.hu^$stealth=dpi
 @@||olacast.live^$stealth=referrer
 @@||olgame.tw^$generichide
@@ -6928,6 +6930,7 @@
 @@||preromanbritain.com/maxymiser/$~third-party
 @@||preview.editmysite.com^$stealth=referrer
 @@||pricematrix.nltg.com/*/markup/$xmlhttprequest,elemhide,jsinject,extension
+@@||priem.menu^$cookie=_ga
 @@||primis.tech^$domain=sportsmole.co.uk
 @@||privat24.privatbank.ua^$stealth=referrer|3p-cookie
 @@||privatbank.ua/content/*/fp2.min.js$~third-party
@@ -7995,6 +7998,7 @@
 @@||stdpay.inicis.com^$stealth=referrer
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
+@@||stenger-bike.de/theme/*/js/storefront/google-analytics.plugin.*.js$domain=stenger-bike.de
 @@||stereonet.com^$stealth=dpi
 @@||stereophile.com^$elemhide
 @@||stfly.me^$stealth=referrer

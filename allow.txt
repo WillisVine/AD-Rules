@@ -2,10 +2,11 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-10-07 11:24:49（北京时间）
+! Version: 2026-10-08 02:09:31（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9336
+! Total count: 9338
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
+@@$cookie=_pcus,domain=buerstaedter-zeitung.de|allgemeine-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de|ruhrnachrichten.de
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$media,stealth=referrer,domain=fakitonye.shop
 @@$popup,domain=datanodes.to,third-party
@@ -3110,7 +3111,6 @@
 @@||doubleclick.net/|$xmlhttprequest,domain=tvnz.co.nz
 @@||doubleclick.net^$app=com.google.android.music
 @@||doubleclick.net^$domain=video.sport1.de
-@@||doubleclick.net^$xmlhttprequest,domain=yyets.click
 @@||douyucdn.cn^*-share-master/
 @@||down.cc/down/js/ad.js
 @@||down.sandai.net^
@@ -3209,7 +3209,6 @@
 @@||ec.atdmt.com/b/$domain=starwoodhotels.com
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
-@@||echo-online.de^$cookie=_pcus
 @@||ecitic.com/source/*/pop
 @@||ecma.bdimg.com/holmes/*.svg
 @@||ecma.bdimg.com^$domain=3g.baidu.com|m.baidu.com|m5.baidu.com|m2.baidu.com|m3.baidu.com|www.baidu.com
@@ -5724,7 +5723,7 @@
 @@||lib.wtg-ads.com/lib.min.js$domain=dnevnik.hr
 @@||libero.it^$generichide
 @@||libs.baidu.com^$domain=m.supfree.net
-@@||libs.baidu.com^$domain=zyywenxue.com|11bqg.com|xbotaodz.com|0794.org|12zw.net|1biqu.com|23hh.com|23sk.net|23wxx.com|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aiwx.info|aixs.la|aikushuge.com|bequmo.com|bimixsw.com|biqivge.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|aidu123.com|biqutsxs.com|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.info|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|lewenge.cc|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|wenxuem.com|xbiquke.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
+@@||libs.baidu.com^$domain=zyywenxue.com|11bqg.com|xbotaodz.com|0794.org|12zw.net|1biqu.com|23hh.com|23sk.net|23wxx.com|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aiwx.info|aixs.la|aikushuge.com|bequmo.com|bimixsw.com|biqivge.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|aidu123.com|biqutsxs.com|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.info|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|lewenge.cc|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|xwenxuem.com|xbiquke.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
 @@||lifehacker.ru^$removeparam=erid
 @@||lifesurance.info/-ads-banner.js
 @@||lightning.bleacherreport.com/launch/*-source.min.js$~third-party
@@ -6639,6 +6638,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ethereumfaucet.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=filgoal.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fox.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=gayvidsclub.com|1069boys.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hqq.to
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ifate.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imagetotext.info
@@ -7272,6 +7272,7 @@
 @@||rt.ru/api/$stealth=referrer
 @@||rt.ru^$stealth=dpi
 @@||rt.visilabs.net/kapsamaharitasi/om.gif$domain=kapsamaharitasi.turktelekom.com.tr
+@@||rtl.nl/_astro/snowplow.*.js$domain=rtl.nl
 @@||rtl.nl/system/s4m/xldata/get_comscore.js?
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
 @@||rtoaster.jp/Rtoaster.js$domain=satofull.jp
@@ -7279,10 +7280,11 @@
 @@||rtoaster.jp^$domain=attenir.co.jp
 @@||rtoaster.jp^$script,domain=animate-onlineshop.jp|brainpad.co.jp|hikaritv.net|lexus.jp|peachjohn.co.jp|rurubu.jp|melonbooks.co.jp
 @@||rtoaster.jp^$script,domain=cecile.co.jp
-@@||rtoaster.jp^$script,domain=cecile.co.jp|ec-store.net|jreastmall.com|lexus.jp|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=cecile.co.jp|ec-store.net|jreastmall.com|lexus.jp|melonbooks.co.jp|nitori-net.jp
 @@||rtoaster.jp^$script,domain=ec-store.net
 @@||rtoaster.jp^$script,domain=jreastmall.com
 @@||rtoaster.jp^$script,domain=kanaloco.jp
+@@||rtoaster.jp^$script,domain=nitori-net.jp
 @@||rtoaster.jp^$script,domain=store.united-arrows.co.jp
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com|journaldequebec.com
@@ -7883,6 +7885,7 @@
 @@||sstats.omahasteaks.com/b/ss/
 @@||st-*.dynamicyield.com/spa/json?sec=$domain=platekompaniet.no
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
+@@||st-*.dynamicyield.com/st?$script,domain=easytoys.pl|easytoys.nl|easytoys.be|easytoys.es|easytoys.it
 @@||st-*.dynamicyield.com/st?sec=$domain=platekompaniet.no
 @@||st-eu.dynamicyield.com/st$domain=amorelie.de
 @@||st-eu.dynamicyield.com/st?sec=$domain=adlibris.com
@@ -9250,7 +9253,6 @@
 @@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
 @@||yimg.com/ss/rapid-3.*.js$domain=hk.yahoo.com|tw.yahoo.com
 @@||yimg.com/ss/rapid-3.7.js$domain=deals.yahoo.com
-@@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
 @@||yimg.jp/*/media/video/$stealth=referrer
 @@||yimg.jp/combo?*/ad/

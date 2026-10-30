@@ -2,9 +2,9 @@
 ! Title: HyperADRules
 ! Homepage: https://github.com/Lynricsy/HyperADRules
 ! Expires: 12 Hours
-! Version: 2026-10-30 11:38:12（北京时间）
+! Version: 2026-10-31 01:28:46（北京时间）
 ! Description: HyperADRules，一个集合众家之长的、强力去广告的规则
-! Total count: 9688
+! Total count: 9691
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$cookie=_pcus,domain=buerstaedter-zeitung.de|allgemeine-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de|ruhrnachrichten.de
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -422,6 +422,7 @@
 @@://gg.*/style/*.js
 @@://googleadservices.com^|
 @@://img.souche.com/*.jpg
+@@://localhost/$elemhide,jsinject,important,app=HDD Regenerator.exe
 @@://localhost/$generichide
 @@://localhost:$generichide
 @@://up.taoseye.com/contents/other/player/playerlogo.png
@@ -6585,6 +6586,7 @@
 @@||neo.btrl.ro/Scripts/services/fingerprint2.min.js$~third-party
 @@||neobux.com/css/ads.css
 @@||neoseeker.com^$generichide
+@@||neruco-search.ec-optimizer.com^$script,domain=i-office1.net
 @@||netatmo.commander1.com^
 @@||netcoresmartech.com/smartechclient.js$domain=cgv.vn
 @@||netcoresmartech.com/smartechclient.js$domain=hdfcfund.com
@@ -8003,6 +8005,7 @@
 @@||simple.ripley.cl$generichide
 @@||simpleanalyticsexternal.com^$script,domain=inleo.io
 @@||simplelogin.io^$cookie
+@@||simpmusic.org^$generichide
 @@||simyo.de/b/ss/$image
 @@||sina.cn^$important
 @@||sina.com.cn/litong/*/close
